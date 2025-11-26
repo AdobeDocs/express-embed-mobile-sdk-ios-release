@@ -12,6 +12,8 @@ Repository to distribute SPM based integration. This repository provides the Emb
     https://github.com/AdobeDocs/express-embed-mobile-sdk-release.git
     ```
 4. Select the version rule you want to use (e.g., Exact Version, Up to Next Major, or Branch).
+![SPM Add Dependency Rules Screenshot](docs/Images/DependencyRules.png)
+
 ![SPM Add Package Screenshot](docs/Images/AddPackage.png)
 5. Click Add Package.
 6. Choose the target(s) where you want to add the SDK and confirm.
