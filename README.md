@@ -9,7 +9,7 @@ Repository to distribute SPM based integration. This repository provides the Emb
 2. File > Add Packages…
 3. Enter the Git repository URL for this SDK:
     ```bash
-    https://github.com/AdobeDocs/express-embed-mobile-sdk-release.git
+    https://github.com/AdobeDocs/express-embed-mobile-sdk-ios-release.git
     ```
 4. Select the version rule you want to use (e.g., Exact Version, Up to Next Major, or Branch).
 ![SPM Add Dependency Rules Screenshot](docs/Images/DependencyRules.png)
@@ -19,10 +19,7 @@ Repository to distribute SPM based integration. This repository provides the Emb
 
 ### Releases
 New versions of the SDK are published as **Git tags** in this repository.  
-You can find the latest and previous releases on the [Releases page](https://github.com/AdobeDocs/express-embed-mobile-sdk-release/releases).  
+You can find the latest and previous releases on the [Releases page](https://github.com/AdobeDocs/express-embed-mobile-sdk-ios-release/releases).  
 
 When adding the SDK via Swift Package Manager (SPM), you can select a specific version tag.  
 Updating to a newer release is as simple as updating the package dependency in Xcode to the desired version.
-
-
-# Android
