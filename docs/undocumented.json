@@ -1,0 +1,3099 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/CCEverywhereInterface.swift",
+      "line": 36,
+      "symbol": "CCEverywhereInterface.activeWorkflow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/CCEverywhereInterface.swift",
+      "line": 37,
+      "symbol": "CCEverywhereInterface.analyticsController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/CCEverywhereInterface.swift",
+      "line": 39,
+      "symbol": "CCEverywhereInterface.internalInterface",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 21,
+      "symbol": "EmbedSdkViewControllerDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 22,
+      "symbol": "EmbedSdkViewControllerDelegate.didLoadStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 23,
+      "symbol": "EmbedSdkViewControllerDelegate.didLoad(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 24,
+      "symbol": "EmbedSdkViewControllerDelegate.didCancel(_:reason:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 25,
+      "symbol": "EmbedSdkViewControllerDelegate.didPublishStart(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 26,
+      "symbol": "EmbedSdkViewControllerDelegate.didPublish(_:intent:publishParams:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 27,
+      "symbol": "EmbedSdkViewControllerDelegate.didError(_:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 28,
+      "symbol": "EmbedSdkViewControllerDelegate.didEvent(_:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 29,
+      "symbol": "EmbedSdkViewControllerDelegate.didIntentChange(_:oldIntent:newIntent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 32,
+      "symbol": "EmbedSdkViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 33,
+      "symbol": "EmbedSdkViewController.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 59,
+      "symbol": "EmbedSdkViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/CCEverywhere/EmbedSdkViewController.swift",
+      "line": 147,
+      "symbol": "EmbedSdkViewController.closeWorkflow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/auth/AuthProvider.swift",
+      "line": 28,
+      "symbol": "AuthProvider.init(authOption:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/CCEverywhereError.swift",
+      "line": 30,
+      "symbol": "CCEverywhereError.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/CCEverywhereError.swift",
+      "line": 31,
+      "symbol": "CCEverywhereError.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/CCEverywhereError.swift",
+      "line": 32,
+      "symbol": "CCEverywhereError.subError",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/CCEverywhereError.swift",
+      "line": 33,
+      "symbol": "CCEverywhereError.customData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/CCEverywhereError.swift",
+      "line": 35,
+      "symbol": "CCEverywhereError.init(code:message:subError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/CCEverywhereError.swift",
+      "line": 41,
+      "symbol": "CCEverywhereError.init(error:subError:customData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 26,
+      "symbol": "ErrorCodes.SDK_ALREADY_INITIALIZED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 27,
+      "symbol": "ErrorCodes.SDK_INITIALIZATION_IN_PROGRESS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 28,
+      "symbol": "ErrorCodes.SDK_NOT_INITIALIZED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 29,
+      "symbol": "ErrorCodes.SDK_INITIALIZATION_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 30,
+      "symbol": "ErrorCodes.WORKFLOW_ALREADY_IN_PROGRESS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 31,
+      "symbol": "ErrorCodes.SDK_INTERNAL_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 32,
+      "symbol": "ErrorCodes.IMS_JUMP_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 33,
+      "symbol": "ErrorCodes.NO_ACTIVE_WORKFLOW",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 34,
+      "symbol": "ErrorCodes.WARMUP_CANCELLED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 35,
+      "symbol": "ErrorCodes.WARMUP_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 36,
+      "symbol": "ErrorCodes.PARAMS_REQUEST_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 37,
+      "symbol": "ErrorCodes.JSON_PARSE_DECODING_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 38,
+      "symbol": "ErrorCodes.JSON_PARSE_ENCODING_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 39,
+      "symbol": "ErrorCodes.ANALYTICS_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 40,
+      "symbol": "ErrorCodes.PERFORMANCE_LOGGING_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 41,
+      "symbol": "ErrorCodes.TARGET_LOAD_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 42,
+      "symbol": "ErrorCodes.TARGET_LOAD_CANCELLED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 43,
+      "symbol": "ErrorCodes.ACTION_LAUNCH_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 44,
+      "symbol": "ErrorCodes.INVALID_TOKEN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 45,
+      "symbol": "ErrorCodes.VALIDATE_TOKEN_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 46,
+      "symbol": "ErrorCodes.LOGIN_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 47,
+      "symbol": "ErrorCodes.INTERNET_NOT_AVAILABLE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 48,
+      "symbol": "ErrorCodes.CLIENT_AUTH_PROVIDER_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 49,
+      "symbol": "ErrorCodes.UNSUPPORTED_API",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 57,
+      "symbol": "ErrorMessages.SDK_ALREADY_INITIALIZED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 58,
+      "symbol": "ErrorMessages.SDK_INITIALIZATION_IN_PROGRESS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 59,
+      "symbol": "ErrorMessages.SDK_NOT_INITIALIZED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 60,
+      "symbol": "ErrorMessages.SDK_INITIALIZATION_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 61,
+      "symbol": "ErrorMessages.WORKFLOW_ALREADY_IN_PROGRESS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 62,
+      "symbol": "ErrorMessages.SDK_INTERNAL_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 63,
+      "symbol": "ErrorMessages.IMS_JUMP_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 64,
+      "symbol": "ErrorMessages.NO_ACTIVE_WORKFLOW",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 65,
+      "symbol": "ErrorMessages.WARMUP_CANCELLED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 66,
+      "symbol": "ErrorMessages.WARMUP_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 67,
+      "symbol": "ErrorMessages.PARAMS_REQUEST_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 68,
+      "symbol": "ErrorMessages.JSON_PARSE_DECODING_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 69,
+      "symbol": "ErrorMessages.JSON_PARSE_ENCODING_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 70,
+      "symbol": "ErrorMessages.UNEXPECTED_ERROR_CODE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 71,
+      "symbol": "ErrorMessages.ANALYTICS_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 72,
+      "symbol": "ErrorMessages.PERFORMANCE_LOGGING_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 73,
+      "symbol": "ErrorMessages.TARGET_LOAD_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 74,
+      "symbol": "ErrorMessages.TARGET_LOAD_CANCELLED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 75,
+      "symbol": "ErrorMessages.ACTION_LAUNCH_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 76,
+      "symbol": "ErrorMessages.INVALID_TOKEN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 77,
+      "symbol": "ErrorMessages.VALIDATE_TOKEN_FAILED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 78,
+      "symbol": "ErrorMessages.LOGIN_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 79,
+      "symbol": "ErrorMessages.INTERNET_NOT_AVAILABLE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 80,
+      "symbol": "ErrorMessages.CLIENT_AUTH_PROVIDER_ERROR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 81,
+      "symbol": "ErrorMessages.UNSUPPORTED_API",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 91,
+      "symbol": "ErrorCodeMessages",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 95,
+      "symbol": "ErrorCodeMessages.init(errorCode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/error/ErrorCodes.swift",
+      "line": 100,
+      "symbol": "ErrorCodeMessages.init(errorCode:errorMessage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 21,
+      "symbol": "AnalyticsStatus",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 22,
+      "symbol": "AnalyticsStatus.isEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 23,
+      "symbol": "AnalyticsStatus.isOptedOut",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 24,
+      "symbol": "AnalyticsStatus.queueSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 25,
+      "symbol": "AnalyticsStatus.lastFlushTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 27,
+      "symbol": "AnalyticsStatus.init(isEnabled:isOptedOut:queueSize:lastFlushTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 47,
+      "symbol": "AnalyticsController.enableAnalytics()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 52,
+      "symbol": "AnalyticsController.disableAnalytics()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/analytics/AnalyticsController.swift",
+      "line": 57,
+      "symbol": "AnalyticsController.getAnalyticsStatus()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 21,
+      "symbol": "ActionIntentTypes",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 22,
+      "symbol": "ActionIntentTypes.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 25,
+      "symbol": "ModuleIntent",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 26,
+      "symbol": "ModuleIntent.EDIT_IMAGE_V2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 27,
+      "symbol": "ModuleIntent.CREATE_IMAGE_FROM_TEXT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 34,
+      "symbol": "QuickActionIntent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 36,
+      "symbol": "ImageQuickActionIntent",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 37,
+      "symbol": "ImageQuickActionIntent.REMOVE_BACKGROUND",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 38,
+      "symbol": "ImageQuickActionIntent.CARD_MAKER",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 45,
+      "symbol": "ActionIntent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 46,
+      "symbol": "ActionIntent.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 48,
+      "symbol": "ActionIntent.init(moduleIntent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 52,
+      "symbol": "ActionIntent.init(quickActionIntent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ActionIntentTypes.swift",
+      "line": 70,
+      "symbol": "ActionIntent.getActionIntent(str:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AppConfigTypes.swift",
+      "line": 32,
+      "symbol": "BaseAnalyticsData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AppConfigTypes.swift",
+      "line": 39,
+      "symbol": "Scale",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AppConfigTypes.swift",
+      "line": 40,
+      "symbol": "Scale.MEDIUM",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AppConfigTypes.swift",
+      "line": 41,
+      "symbol": "Scale.LARGE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 21,
+      "symbol": "FileType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 22,
+      "symbol": "FileType.IMAGE_FILE_TYPE(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 23,
+      "symbol": "FileType.VIDEO_FILE_TYPE(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 24,
+      "symbol": "FileType.PDF_FILE_TYPE(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 27,
+      "symbol": "ImageFileType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 28,
+      "symbol": "ImageFileType.JPEG",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 29,
+      "symbol": "ImageFileType.PNG",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 32,
+      "symbol": "VideoFileType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 33,
+      "symbol": "VideoFileType.MP4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 36,
+      "symbol": "PdfFileType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 37,
+      "symbol": "PdfFileType.PDF",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 40,
+      "symbol": "ImageModuleFileTypes",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 41,
+      "symbol": "ImageModuleFileTypes.image(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 42,
+      "symbol": "ImageModuleFileTypes.pdf(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 70,
+      "symbol": "SizeUnit",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 71,
+      "symbol": "SizeUnit.PIXELS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 72,
+      "symbol": "SizeUnit.MILLIMETERS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 73,
+      "symbol": "SizeUnit.INCHES",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 74,
+      "symbol": "SizeUnit.CENTIMETERS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 77,
+      "symbol": "Size",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 78,
+      "symbol": "Size.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 79,
+      "symbol": "Size.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 80,
+      "symbol": "Size.unit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 83,
+      "symbol": "PixelSize",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 84,
+      "symbol": "PixelSize.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 86,
+      "symbol": "PixelSize.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 88,
+      "symbol": "PixelSize.unit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 90,
+      "symbol": "PixelSize.init(width:height:unit:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 97,
+      "symbol": "AssetType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 98,
+      "symbol": "AssetType.IMAGE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 99,
+      "symbol": "AssetType.VIDEO",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 100,
+      "symbol": "AssetType.PDF",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 101,
+      "symbol": "AssetType.PSD",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 104,
+      "symbol": "AssetDataType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 105,
+      "symbol": "AssetDataType.BASE64",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 106,
+      "symbol": "AssetDataType.URL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 107,
+      "symbol": "AssetDataType.BLOB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 110,
+      "symbol": "Blob",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 115,
+      "symbol": "DataTypeMap",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 116,
+      "symbol": "DataTypeMap.blob(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 117,
+      "symbol": "DataTypeMap.url(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 118,
+      "symbol": "DataTypeMap.base64(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 168,
+      "symbol": "AssetBase",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 169,
+      "symbol": "AssetBase.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 170,
+      "symbol": "AssetBase.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 171,
+      "symbol": "AssetBase.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 172,
+      "symbol": "AssetBase.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 175,
+      "symbol": "OutputAsset",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 176,
+      "symbol": "OutputAsset.fileType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 177,
+      "symbol": "OutputAsset.fileName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 178,
+      "symbol": "OutputAsset.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 179,
+      "symbol": "OutputAsset.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 180,
+      "symbol": "OutputAsset.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 181,
+      "symbol": "OutputAsset.dataType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 182,
+      "symbol": "OutputAsset.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 235,
+      "symbol": "AspectRatio",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 236,
+      "symbol": "AspectRatio.SQUARE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 237,
+      "symbol": "AspectRatio.PORTRAIT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 238,
+      "symbol": "AspectRatio.LANDSCAPE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 239,
+      "symbol": "AspectRatio.WIDESCREEN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 242,
+      "symbol": "ImageDimensions",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 246,
+      "symbol": "ImageDimensions.init(size:aspectRatio:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 254,
+      "symbol": "Asset",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 260,
+      "symbol": "Asset.init(type:name:dataType:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 298,
+      "symbol": "Base64Asset",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 316,
+      "symbol": "UrlAsset",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 334,
+      "symbol": "BlobAsset",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AssetTypes.swift",
+      "line": 339,
+      "symbol": "BlobAsset.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthOption.swift",
+      "line": 32,
+      "symbol": "AuthOption.init(mode:config:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 40,
+      "symbol": "AuthConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 81,
+      "symbol": "PreSignedInAuthConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 113,
+      "symbol": "PreSignedInAuthConfig.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 121,
+      "symbol": "IMSAuthConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 131,
+      "symbol": "IMSAuthConfig.init(accessToken:userId:forceJumpCheck:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 157,
+      "symbol": "IMSAuthConfig.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 179,
+      "symbol": "UpfrontAuthOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 184,
+      "symbol": "UpfrontAuthOption.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 189,
+      "symbol": "DelayedAuthOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 194,
+      "symbol": "DelayedAuthOption.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 199,
+      "symbol": "PreSignedInAuthOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 204,
+      "symbol": "PreSignedInAuthOption.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 209,
+      "symbol": "ImsJumpAuthOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 210,
+      "symbol": "ImsJumpAuthOption.init(config:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/AuthenticationTypes.swift",
+      "line": 214,
+      "symbol": "ImsJumpAuthOption.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 21,
+      "symbol": "IntentChangeConfig",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 26,
+      "symbol": "IntentChangeConfig.init(appConfig:exportConfig:containerConfig:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 46,
+      "symbol": "Callbacks",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 47,
+      "symbol": "Callbacks.onLoadStart()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 48,
+      "symbol": "Callbacks.onLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 49,
+      "symbol": "Callbacks.onCancel(reason:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 50,
+      "symbol": "Callbacks.onPublishStart()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 51,
+      "symbol": "Callbacks.onPublish(intent:publishParams:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 52,
+      "symbol": "Callbacks.onError(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 53,
+      "symbol": "Callbacks.onEvent(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 54,
+      "symbol": "Callbacks.onIntentChange(oldIntent:newIntent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 57,
+      "symbol": "EmbedSDKCallbacks",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 58,
+      "symbol": "EmbedSDKCallbacks.onAnalyticsEvent(event:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/CallbacksTypes.swift",
+      "line": 61,
+      "symbol": "CallbacksHelper",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ConfigParamsBase.swift",
+      "line": 31,
+      "symbol": "ConfigParamsBase.init(locale:env:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 27,
+      "symbol": "BaseContainerConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 32,
+      "symbol": "BaseContainerConfig.init(backgroundColor:showLoader:loadTimeout:hideCloseButton:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 45,
+      "symbol": "InlineOrModalContainerConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 49,
+      "symbol": "InlineOrModalContainerConfig.init(backgroundColor:showLoader:loadTimeout:hideCloseButton:size:minSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 72,
+      "symbol": "InlineOrModalContainerConfig.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 87,
+      "symbol": "InlineOrModalContainerConfig.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 103,
+      "symbol": "InlineContainerConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 143,
+      "symbol": "InlineContainerConfig.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 161,
+      "symbol": "ModalContainerConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 164,
+      "symbol": "ModalContainerConfig.init(backgroundColor:showLoader:loadTimeout:hideCloseButton:size:minSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 187,
+      "symbol": "ModalContainerConfig.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 201,
+      "symbol": "ModalContainerConfig.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 217,
+      "symbol": "FillContainerConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 253,
+      "symbol": "FillContainerConfig.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ContainerConfigTypes.swift",
+      "line": 272,
+      "symbol": "ContainerConfig",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/DesignConfigTypes.swift",
+      "line": 21,
+      "symbol": "BaseAppConfig",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/DesignConfigTypes.swift",
+      "line": 22,
+      "symbol": "BaseAppConfig.callbacks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/DesignConfigTypes.swift",
+      "line": 23,
+      "symbol": "BaseAppConfig.analyticsData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/DesignConfigTypes.swift",
+      "line": 26,
+      "symbol": "BaseDocConfig",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/Environment.swift",
+      "line": 25,
+      "symbol": "Environment.STAGE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/Environment.swift",
+      "line": 26,
+      "symbol": "Environment.PRODUCTION",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 21,
+      "symbol": "ExportOptionUI",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 22,
+      "symbol": "ExportOptionUI.LINK",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 23,
+      "symbol": "ExportOptionUI.BUTTON",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 24,
+      "symbol": "ExportOptionUI.ENABLED_BUTTON",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 25,
+      "symbol": "ExportOptionUI.DROPDOWN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 28,
+      "symbol": "Style",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 30,
+      "symbol": "Style.init(uiType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 65,
+      "symbol": "ExportButtonVariant",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 66,
+      "symbol": "ExportButtonVariant.ACCENT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 67,
+      "symbol": "ExportButtonVariant.PRIMARY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 68,
+      "symbol": "ExportButtonVariant.SECONDARY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 71,
+      "symbol": "ExportButtonTreatment",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 72,
+      "symbol": "ExportButtonTreatment.FILL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 73,
+      "symbol": "ExportButtonTreatment.OUTLINE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 76,
+      "symbol": "BaseButtonStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 77,
+      "symbol": "BaseButtonStyle.icon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 78,
+      "symbol": "BaseButtonStyle.variant",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 79,
+      "symbol": "BaseButtonStyle.treatment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 107,
+      "symbol": "BaseButtonStyle.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 126,
+      "symbol": "ButtonStyle",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 147,
+      "symbol": "DropdownOptionStyle",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 161,
+      "symbol": "DropdownOptionStyle.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 168,
+      "symbol": "DropdownOptionStyle.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 214,
+      "symbol": "ExportTarget",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 215,
+      "symbol": "ExportTarget.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 218,
+      "symbol": "PublishTarget",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 219,
+      "symbol": "PublishTarget.PUBLISH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 222,
+      "symbol": "DownloadTarget",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 223,
+      "symbol": "DownloadTarget.DOWNLOAD",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 224,
+      "symbol": "DownloadTarget.DOWNLOAD_ALL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 227,
+      "symbol": "EditFurtherTarget",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 228,
+      "symbol": "EditFurtherTarget.EXPRESS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 229,
+      "symbol": "EditFurtherTarget.IMAGE_MODULE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 232,
+      "symbol": "BaseActionInterface",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 233,
+      "symbol": "BaseActionInterface.target",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 236,
+      "symbol": "PublishAction",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 237,
+      "symbol": "PublishAction.target",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 242,
+      "symbol": "PublishAction.init(target:closeTargetOnExport:publishFileType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 311,
+      "symbol": "DownloadAction",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 312,
+      "symbol": "DownloadAction.target",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 316,
+      "symbol": "DownloadAction.init(target:closeTargetOnExport:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 356,
+      "symbol": "EditFurtherIntent",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 357,
+      "symbol": "EditFurtherIntent.ADD_TEXT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 358,
+      "symbol": "EditFurtherIntent.ADD_ICONS_AND_SHAPES",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 359,
+      "symbol": "EditFurtherIntent.ADD_IMAGES",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 360,
+      "symbol": "EditFurtherIntent.ADD_EFFECTS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 361,
+      "symbol": "EditFurtherIntent.REMOVE_BACKGROUND",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 362,
+      "symbol": "EditFurtherIntent.RESIZE_IMAGE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 363,
+      "symbol": "EditFurtherIntent.CROP_IMAGE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 364,
+      "symbol": "EditFurtherIntent.APPLY_ADJUSTMENT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 365,
+      "symbol": "EditFurtherIntent.GEN_FILL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 366,
+      "symbol": "EditFurtherIntent.REMOVE_OBJECT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 367,
+      "symbol": "EditFurtherIntent.INSERT_OBJECT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 368,
+      "symbol": "EditFurtherIntent.NO_INTENT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 371,
+      "symbol": "EditImageIntent",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 372,
+      "symbol": "EditImageIntent.REMOVE_BACKGROUND",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 373,
+      "symbol": "EditImageIntent.CROP_IMAGE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 374,
+      "symbol": "EditImageIntent.APPLY_ADJUSTMENT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 375,
+      "symbol": "EditImageIntent.REMOVE_OBJECT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 376,
+      "symbol": "EditImageIntent.INSERT_OBJECT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 377,
+      "symbol": "EditImageIntent.NO_INTENT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 380,
+      "symbol": "ExportContext",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 381,
+      "symbol": "ExportContext.DEFAULT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 382,
+      "symbol": "ExportContext.NEW",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 385,
+      "symbol": "EditFurtherAction",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 386,
+      "symbol": "EditFurtherAction.target",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 391,
+      "symbol": "EditFurtherAction.init(target:intent:context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 434,
+      "symbol": "ContinueEditingAction",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 436,
+      "symbol": "ExportAction",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 438,
+      "symbol": "BaseExportOptionOrGroup",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 439,
+      "symbol": "BaseExportOptionOrGroup.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 446,
+      "symbol": "BaseExportOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 447,
+      "symbol": "BaseExportOption.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 448,
+      "symbol": "BaseExportOption.style",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 449,
+      "symbol": "BaseExportOption.action",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 451,
+      "symbol": "BaseExportOption.init(id:style:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 464,
+      "symbol": "BaseExportOption.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 492,
+      "symbol": "BaseExportOption.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 510,
+      "symbol": "PublishExportOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 513,
+      "symbol": "PublishExportOption.init(id:style:action:label:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 522,
+      "symbol": "PublishExportOption.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 536,
+      "symbol": "PublishExportOption.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 552,
+      "symbol": "DownloadExportOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 555,
+      "symbol": "DownloadExportOption.init(id:style:action:label:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 564,
+      "symbol": "DownloadExportOption.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 570,
+      "symbol": "DownloadExportOption.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 577,
+      "symbol": "EditFurtherExportOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 595,
+      "symbol": "EditFurtherExportOption.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 602,
+      "symbol": "ContinueEditingDropdownOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 603,
+      "symbol": "ContinueEditingDropdownOption.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 605,
+      "symbol": "ContinueEditingDropdownOption.init(id:style:action:label:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 625,
+      "symbol": "ContinueEditingDropdownOption.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 634,
+      "symbol": "DropdownExportOption",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 652,
+      "symbol": "DropdownExportOption.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 659,
+      "symbol": "ExportGroupType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 660,
+      "symbol": "ExportGroupType.BUTTON_GROUP",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 661,
+      "symbol": "ExportGroupType.CONTINUE_EDITING",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 727,
+      "symbol": "ContinueEditingGroup",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 728,
+      "symbol": "ContinueEditingGroup.style",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 729,
+      "symbol": "ContinueEditingGroup.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 730,
+      "symbol": "ContinueEditingGroup.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 731,
+      "symbol": "ContinueEditingGroup.options",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 733,
+      "symbol": "ContinueEditingGroup.init(style:label:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 748,
+      "symbol": "ContinueEditingGroup.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 765,
+      "symbol": "ContinueEditingGroup.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 785,
+      "symbol": "ExportOptionOrGroup",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 786,
+      "symbol": "ExportOptions",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/ExportConfigTypes.swift",
+      "line": 787,
+      "symbol": "ExportConfig",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 20,
+      "symbol": "HostId",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 21,
+      "symbol": "HostId.OTHER",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 22,
+      "symbol": "HostId.ACROBAT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 23,
+      "symbol": "HostId.TEST_APP",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 26,
+      "symbol": "HostType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 27,
+      "symbol": "HostType.THIRD_PARTY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 28,
+      "symbol": "HostType.FIRST_PARTY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 46,
+      "symbol": "HostInfoSpecifiedBase.init(clientId:appName:appVersion:isFirstPartyHost:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 100,
+      "symbol": "PlatformCategory.WEB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 101,
+      "symbol": "PlatformCategory.DESKTOP",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 102,
+      "symbol": "PlatformCategory.MOBILE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 103,
+      "symbol": "PlatformCategory.INVALID_PLATFORM",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 111,
+      "symbol": "Locale",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 112,
+      "symbol": "Locale.ENGLISH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 113,
+      "symbol": "Locale.FRENCH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 114,
+      "symbol": "Locale.GERMAN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 115,
+      "symbol": "Locale.JAPANESE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 116,
+      "symbol": "Locale.ITALIAN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 117,
+      "symbol": "Locale.SPANISH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 118,
+      "symbol": "Locale.PORTUGUESE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 119,
+      "symbol": "Locale.KOREAN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 120,
+      "symbol": "Locale.DANISH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 121,
+      "symbol": "Locale.DUTCH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 122,
+      "symbol": "Locale.NORWEGIAN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 123,
+      "symbol": "Locale.SWEDISH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 124,
+      "symbol": "Locale.FINNISH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 125,
+      "symbol": "Locale.CHINESE_SIMPLIFIED",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 126,
+      "symbol": "Locale.CHINESE_TRADITIONAL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 136,
+      "symbol": "DeviceInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 143,
+      "symbol": "HostInfoComputed",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 144,
+      "symbol": "HostInfoComputed.referrer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 145,
+      "symbol": "HostInfoComputed.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 146,
+      "symbol": "HostInfoComputed.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 147,
+      "symbol": "HostInfoComputed.sdkVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 148,
+      "symbol": "HostInfoComputed.deviceInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 151,
+      "symbol": "HostInfoSession",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 165,
+      "symbol": "HostInfoExtended.sdkVersion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 167,
+      "symbol": "HostInfoExtended.referrer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 168,
+      "symbol": "HostInfoExtended.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 169,
+      "symbol": "HostInfoExtended.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 170,
+      "symbol": "HostInfoExtended.deviceInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 172,
+      "symbol": "HostInfoExtended.init(clientId:appName:appVersion:sdkVersion:referrer:isFirstPartyHost:type:id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 194,
+      "symbol": "HostInfoExtended.init(hostInfoComputed:hostInfoSpecifiedBase:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 224,
+      "symbol": "HostInfoExtended.init(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/HostInfoTypes.swift",
+      "line": 254,
+      "symbol": "HostInfoExtended.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/PublishParamsTypes.swift",
+      "line": 21,
+      "symbol": "PublishParams",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/PublishParamsTypes.swift",
+      "line": 22,
+      "symbol": "PublishParams.asset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/PublishParamsTypes.swift",
+      "line": 23,
+      "symbol": "PublishParams.exportButtonId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/PublishParamsTypes.swift",
+      "line": 24,
+      "symbol": "PublishParams.documentId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 29,
+      "symbol": "Version.major",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 30,
+      "symbol": "Version.minor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 31,
+      "symbol": "Version.patch",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 32,
+      "symbol": "Version.build",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 33,
+      "symbol": "Version.prefix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 34,
+      "symbol": "Version.suffix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 37,
+      "symbol": "Version.majorString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 41,
+      "symbol": "Version.minorString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 45,
+      "symbol": "Version.patchString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/VersionTypes.swift",
+      "line": 49,
+      "symbol": "Version.init(major:minor:patch:build:prefix:suffix:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 21,
+      "symbol": "ColorTheme",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 22,
+      "symbol": "ColorTheme.LIGHTEST",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 23,
+      "symbol": "ColorTheme.LIGHT",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 24,
+      "symbol": "ColorTheme.DARK",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 25,
+      "symbol": "ColorTheme.DARKEST",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 28,
+      "symbol": "SpectrumTheme",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 29,
+      "symbol": "SpectrumTheme.SPECTRUM",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 30,
+      "symbol": "SpectrumTheme.EXPRESS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 33,
+      "symbol": "ThumbnailOption",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 34,
+      "symbol": "ThumbnailOption.EDIT_DROPDOWN",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 35,
+      "symbol": "ThumbnailOption.DOWNLOAD",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 36,
+      "symbol": "ThumbnailOption.RICH_PREVIEW",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 37,
+      "symbol": "ThumbnailOption.PUBLISH",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 40,
+      "symbol": "FastModeState",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 41,
+      "symbol": "FastModeState.ON",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 42,
+      "symbol": "FastModeState.OFF",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 45,
+      "symbol": "TextToImageFeature",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 46,
+      "symbol": "TextToImageFeature.COMMUNITY_WALL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 47,
+      "symbol": "TextToImageFeature.FAST_MODE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 50,
+      "symbol": "TextOverride",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 51,
+      "symbol": "TextOverride.LAUNCH_SCREEN_DESCRIPTION",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 63,
+      "symbol": "EditDropdownOptionConfig",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 66,
+      "symbol": "EditDropdownOptionConfig.init(option:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 85,
+      "symbol": "PublishConfig",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 89,
+      "symbol": "PublishConfig.init(id:label:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 95,
+      "symbol": "FastModeConfig",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 98,
+      "symbol": "FastModeConfig.init(defaultFastModeState:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 103,
+      "symbol": "TextToImageAppVersion",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 104,
+      "symbol": "TextToImageAppVersion.V1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/AppConfigTypesModule.swift",
+      "line": 105,
+      "symbol": "TextToImageAppVersion.V2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/DocConfigTypes.swift",
+      "line": 21,
+      "symbol": "EditImageDocConfig.init(asset:intent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/module/DocConfigTypes.swift",
+      "line": 51,
+      "symbol": "EditImageDocConfig.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 23,
+      "symbol": "QuickActionAppConfig.callbacks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 24,
+      "symbol": "QuickActionAppConfig.analyticsData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 31,
+      "symbol": "QuickActionAppConfig.init(editorTitle:metaData:createTempDoc:analyticsData:colorTheme:spectrumTheme:scale:receiveTargetErrors:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 65,
+      "symbol": "TemplateEditorSource",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 92,
+      "symbol": "Template",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 93,
+      "symbol": "Template.init(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 102,
+      "symbol": "Document",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 103,
+      "symbol": "Document.init(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 112,
+      "symbol": "TemplateEditorQuickActionAppConfig",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 116,
+      "symbol": "TemplateEditorQuickActionAppConfig.callbacks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 117,
+      "symbol": "TemplateEditorQuickActionAppConfig.analyticsData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionAppConfig.swift",
+      "line": 131,
+      "symbol": "TemplateEditorQuickActionAppConfig.init(editorTitle:metaData:createTempDoc:analyticsData:templateEditorSource:textOverrides:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionDocConfigTypes.swift",
+      "line": 22,
+      "symbol": "QuickActionDocConfigTypes.init(asset:url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/shared/types/quick-action/QuickActionDocConfigTypes.swift",
+      "line": 44,
+      "symbol": "QuickActionDocConfigTypes.encode(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/workflows/ModuleWorkflowTypes.swift",
+      "line": 22,
+      "symbol": "ModuleWorkflowInterface",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/workflows/ModuleWorkflowTypes.swift",
+      "line": 23,
+      "symbol": "ModuleWorkflowInterface.createImageFromText(textToImageAppConfig:exportConfig:containerConfig:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/workflows/ModuleWorkflowTypes.swift",
+      "line": 29,
+      "symbol": "ModuleWorkflowInterface.editImage(editImageDocConfig:editImageAppConfig:exportConfig:containerConfig:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/workflows/ModuleWorkflowTypes.swift",
+      "line": 36,
+      "symbol": "ModuleWorkflowInterface.warmup(intent:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/workflows/QuickActionWorkflowTypes.swift",
+      "line": 20,
+      "symbol": "QuickActionWorkflowInterface",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/workflows/QuickActionWorkflowTypes.swift",
+      "line": 21,
+      "symbol": "QuickActionWorkflowInterface.removeBackground(docConfig:appConfig:exportConfig:containerConfig:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS/sdk/embed-sdk/workflows/QuickActionWorkflowTypes.swift",
+      "line": 28,
+      "symbol": "QuickActionWorkflowInterface.templateEditor(quickActionAppConfig:exportConfig:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/barranca/Documents/Github/project-marvel_native-sdk/iOS"
+}
