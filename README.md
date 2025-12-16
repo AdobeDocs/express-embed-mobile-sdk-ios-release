@@ -23,3 +23,20 @@ You can find the latest and previous releases on the [Releases page](https://git
 
 When adding the SDK via Swift Package Manager (SPM), you can select a specific version tag.  
 Updating to a newer release is as simple as updating the package dependency in Xcode to the desired version.
+
+### Troubleshooting
+
+If you encounter issues while integrating or updating the SDK, such as:
+- The new dependency does not appear in the package graph
+- Xcode fails to resolve the Swift Package
+
+Please try the following steps:
+- Clear Swift Package Manager caches, or run the following command in the terminal:
+  ```bash
+  rm -rf ~/Library/Caches/org.swift.swiftpm \
+         ~/Library/org.swift.swiftpm \
+         ~/Library/Developer/Xcode/DerivedData \
+         ~/Library/Developer/Xcode/SourcePackages
+  ```
+- Restart Xcode
+- Re-integrate the SDK (e.g. version `v1.0.0`)
