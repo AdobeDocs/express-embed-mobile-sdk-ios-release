@@ -4,7 +4,7 @@ This directory contains the Markdown version of the iOS SDK documentation, conve
 
 **Source:** `iOS/sdk/build/docs/gfm-3p/`  
 **Conversion tool:** turndown + turndown-plugin-gfm  
-**Generated:** 2025-12-12T14:43:58.671Z
+**Generated:** 2025-12-16T11:50:15.132Z
 
 ## Files
 
@@ -26,4 +26,4 @@ This directory contains the Markdown version of the iOS SDK documentation, conve
 To regenerate this documentation:
 
 1. Generate HTML docs: `cd iOS/fastlane && bundle exec fastlane generate_docs_3p`
-2. Convert to Markdown: `cd devex && npm run convert-ios-docs 3p`
+2. Convert to Markdown: `cd documentation && npm run convert-ios-docs 3p`
