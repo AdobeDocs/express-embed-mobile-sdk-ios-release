@@ -57,3 +57,20 @@ Updating to a newer release is as simple as updating the package dependency in X
 ## API Documentation
 
 For detailed information about available classes, methods, callbacks, and configuration options, please refer to the 👉 [**API Reference**](./docs/index.md).
+
+## Troubleshooting
+
+If you encounter issues while integrating or updating the SDK, such as:
+- The new dependency does not appear in the package graph
+- Xcode fails to resolve the Swift Package
+
+Please try the following steps:
+- Clear Swift Package Manager caches, or run the following command in the terminal:
+  ```bash
+  rm -rf ~/Library/Caches/org.swift.swiftpm \
+         ~/Library/org.swift.swiftpm \
+         ~/Library/Developer/Xcode/DerivedData \
+         ~/Library/Developer/Xcode/SourcePackages
+  ```
+- Restart Xcode
+- Re-integrate the SDK (e.g. version `v1.0.0`)
