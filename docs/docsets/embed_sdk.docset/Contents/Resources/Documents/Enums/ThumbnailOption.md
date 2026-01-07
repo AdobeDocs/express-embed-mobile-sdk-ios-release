@@ -4,11 +4,11 @@
 public enum ThumbnailOption : String, Codable
 ```
 
-Undocumented
+Thumbnail display options for generated/edited images.
 
 -   `[EDIT_DROPDOWN](#/s:9embed_sdk15ThumbnailOptionO13EDIT_DROPDOWNyA2CmF)`
     
-    Undocumented
+    Show edit dropdown menu in thumbnail
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[DOWNLOAD](#/s:9embed_sdk15ThumbnailOptionO8DOWNLOADyA2CmF)`
     
-    Undocumented
+    Show download option in thumbnail
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[RICH_PREVIEW](#/s:9embed_sdk15ThumbnailOptionO12RICH_PREVIEWyA2CmF)`
     
-    Undocumented
+    Show rich preview in thumbnail
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Undocumented
     
 -   `[PUBLISH](#/s:9embed_sdk15ThumbnailOptionO7PUBLISHyA2CmF)`
     
-    Undocumented
+    Show publish option in thumbnail
     
     #### Declaration
     

@@ -6,7 +6,9 @@ public enum PlatformCategory : String, Equatable, Codable
 
 Platform type
 
-@property rawValue String identifier for the platform
+\## Properties
+
+-   `rawValue`: String identifier for the platform
 
 -   `[WEB](#/s:9embed_sdk16PlatformCategoryO3WEByA2CmF)`
     

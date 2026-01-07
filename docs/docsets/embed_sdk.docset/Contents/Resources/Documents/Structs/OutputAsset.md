@@ -4,7 +4,17 @@
 public struct OutputAsset : AssetBase, Codable
 ```
 
-Undocumented
+Output asset from SDK workflows.
+
+\## Properties
+
+-   `fileType`: File format and MIME type
+-   `fileName`: Name of the output file
+-   `size`: Dimensions of the asset (for images/videos)
+-   `type`: Content type (image, video, PDF)
+-   `name`: Optional display name
+-   `dataType`: How the asset data is encoded
+-   `data`: The actual asset data
 
 -   `[fileType](#/s:9embed_sdk11OutputAssetV8fileTypeAA04FileF0Ovp)`
     

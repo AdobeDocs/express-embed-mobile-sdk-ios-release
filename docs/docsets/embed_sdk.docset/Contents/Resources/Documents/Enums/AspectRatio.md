@@ -4,11 +4,11 @@
 public enum AspectRatio : String, Codable
 ```
 
-Undocumented
+Image aspect ratio presets. Common aspect ratios for image generation and editing.
 
 -   `[SQUARE](#/s:9embed_sdk11AspectRatioO6SQUAREyA2CmF)`
     
-    Undocumented
+    Square aspect ratio (1:1)
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[PORTRAIT](#/s:9embed_sdk11AspectRatioO8PORTRAITyA2CmF)`
     
-    Undocumented
+    Portrait aspect ratio (3:4)
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[LANDSCAPE](#/s:9embed_sdk11AspectRatioO9LANDSCAPEyA2CmF)`
     
-    Undocumented
+    Landscape aspect ratio (4:3)
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Undocumented
     
 -   `[WIDESCREEN](#/s:9embed_sdk11AspectRatioO10WIDESCREENyA2CmF)`
     
-    Undocumented
+    Widescreen aspect ratio (16:9)
     
     #### Declaration
     

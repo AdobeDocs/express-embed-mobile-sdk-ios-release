@@ -4,11 +4,11 @@
 public enum ImageFileType : String, Codable
 ```
 
-Undocumented
+Supported image file formats.
 
 -   `[JPEG](#/s:9embed_sdk13ImageFileTypeO4JPEGyA2CmF)`
     
-    Undocumented
+    JPEG image format
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[PNG](#/s:9embed_sdk13ImageFileTypeO3PNGyA2CmF)`
     
-    Undocumented
+    PNG image format
     
     #### Declaration
     

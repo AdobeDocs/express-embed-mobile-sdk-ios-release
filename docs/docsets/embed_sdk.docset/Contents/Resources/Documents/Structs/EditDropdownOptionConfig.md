@@ -4,7 +4,11 @@
 public struct EditDropdownOptionConfig : Codable
 ```
 
-Undocumented
+Configuration for edit dropdown options in the editor.
+
+\## Properties
+
+-   `option`: The editing intent/tool to include in the dropdown
 
 -   `[init(option:)](#/s:9embed_sdk24EditDropdownOptionConfigV6optionAcA0C13FurtherIntentO_tcfc)`
     

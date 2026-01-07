@@ -4,7 +4,7 @@
 public class BaseExportOptionOrGroup : Codable
 ```
 
-Undocumented
+Base class for export options and option groups.
 
 -   `[init()](#/s:9embed_sdk23BaseExportOptionOrGroupCACycfc)`
     

@@ -4,7 +4,7 @@
 public protocol BaseActionInterface : Decodable, Encodable
 ```
 
-Undocumented
+Base protocol for export actions. All export actions must specify a target destination.
 
 -   `[target](#/s:9embed_sdk19BaseActionInterfaceP6targetAA12ExportTarget_pvp)`
     

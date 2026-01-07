@@ -6,7 +6,9 @@ public enum AuthMode : String, Codable
 
 Authentication modes determining when and how users are authenticated.
 
-@property rawValue String identifier for the authentication mode
+\## Properties
+
+-   `rawValue`: String identifier for the authentication mode
 
 -   `[UPFRONT](#/s:9embed_sdk8AuthModeO7UPFRONTyA2CmF)`
     

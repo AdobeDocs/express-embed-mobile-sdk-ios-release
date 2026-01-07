@@ -14,9 +14,17 @@ NOTICE: All information contained herein is, and remains the property of Adobe a
 
 * * *
 
+Document configuration for Edit Image workflow.
+
+\## Properties
+
+-   `asset`: Image asset to edit
+-   `intent`: Optional editing intent to launch directly into a specific editing tool
+
 -   `[init(asset:intent:)](#/s:9embed_sdk18EditImageDocConfigC5asset6intentAcA5AssetCSg_AA0cD6IntentOSgtcfc)`
     
-    Undocumented
+    -   Creates an EditImageDocConfig instance.
+        
     
     #### Declaration
     

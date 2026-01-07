@@ -6,7 +6,12 @@ public class CCEverywhereError : Error, LocalizedError
 
 Main exception class for all Adobe Express Embed SDK errors.
 
-@property code Error code identifier @property message Error description @property subError Nested error that caused this error (error chaining) @property customData Additional context data for debugging
+\## Properties
+
+-   `code`: Error code identifier
+-   `message`: Error description
+-   `subError`: Nested error that caused this error (error chaining)
+-   `customData`: Additional context data for debugging
 
 -   `[code](#/s:9embed_sdk17CCEverywhereErrorC4codeSSSgvp)`
     
@@ -84,8 +89,6 @@ Main exception class for all Adobe Express Embed SDK errors.
     
     Creates a CCEverywhereError instance from structured error information.
     
-    @param error Structured error information @return New CCEverywhereError instance
-    
     #### Declaration
     
     Swift
@@ -93,6 +96,14 @@ Main exception class for all Adobe Express Embed SDK errors.
     ```
     public static func create(error: ErrorCodeMessages) -> CCEverywhereError
     ```
+    
+    #### Parameters
+    
+    <table class="graybox"><tbody><tr><td><code><em>error</em></code></td><td><div><p>Structured error information</p></div></td></tr></tbody></table>
+    
+    #### Return Value
+    
+    New CCEverywhereError instance
     
 -   `[errorDescription](#/s:10Foundation14LocalizedErrorP16errorDescriptionSSSgvp)`
     

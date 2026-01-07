@@ -4,7 +4,11 @@
 public class ActionIntent : ActionIntentTypes
 ```
 
-Undocumented
+Action intent identifier.
+
+\## Properties
+
+-   `rawValue`: String identifier for the intent
 
 -   `[rawValue](#/s:9embed_sdk12ActionIntentC8rawValueSSvp)`
     
@@ -20,7 +24,8 @@ Undocumented
     
 -   `[init(moduleIntent:)](#/s:9embed_sdk12ActionIntentC06moduleD0AcA06ModuleD0OSg_tcfc)`
     
-    Undocumented
+    -   Creates an action intent from a module intent.
+        
     
     #### Declaration
     
@@ -32,7 +37,8 @@ Undocumented
     
 -   `[init(quickActionIntent:)](#/s:9embed_sdk12ActionIntentC05quickcD0AcA05QuickcD0_pSg_tcfc)`
     
-    Undocumented
+    -   Creates an action intent from a quick action intent.
+        
     
     #### Declaration
     

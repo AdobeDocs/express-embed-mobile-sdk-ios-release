@@ -4,11 +4,11 @@
 public enum ImageQuickActionIntent : String, QuickActionIntent
 ```
 
-Undocumented
+Image quick action intents. Specific quick actions available for image editing.
 
 -   `[REMOVE_BACKGROUND](#/s:9embed_sdk22ImageQuickActionIntentO17REMOVE_BACKGROUNDyA2CmF)`
     
-    Undocumented
+    Remove background from image
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[CARD_MAKER](#/s:9embed_sdk22ImageQuickActionIntentO10CARD_MAKERyA2CmF)`
     
-    Undocumented
+    Card maker quick action
     
     #### Declaration
     

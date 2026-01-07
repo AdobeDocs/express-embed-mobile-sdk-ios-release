@@ -4,11 +4,17 @@
 public class ImsJumpAuthOption : AuthOption
 ```
 
-Undocumented
+IMS Jump authentication option. Uses Adobe IMS authentication with jump URL mechanism for SSO. Suitable for 1st party Adobe desktop applications.
+
+\## Properties
+
+-   `mode`: Authentication mode (IMS\_JUMP)
+-   `config`: IMS auth configuration with access token and settings
 
 -   `[init(config:)](#/s:9embed_sdk17ImsJumpAuthOptionC6configAcA13IMSAuthConfigCSg_tcfc)`
     
-    Undocumented
+    -   Creates an IMS Jump authentication option.
+        
     
     #### Declaration
     

@@ -8,7 +8,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
 
 -   `[SDK_ALREADY_INITIALIZED](#/s:9embed_sdk10ErrorCodesO23SDK_ALREADY_INITIALIZEDyA2CmF)`
     
-    Undocumented
+    SDK has already been initialized
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[SDK_INITIALIZATION_IN_PROGRESS](#/s:9embed_sdk10ErrorCodesO30SDK_INITIALIZATION_IN_PROGRESSyA2CmF)`
     
-    Undocumented
+    SDK initialization is currently in progress
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[SDK_NOT_INITIALIZED](#/s:9embed_sdk10ErrorCodesO19SDK_NOT_INITIALIZEDyA2CmF)`
     
-    Undocumented
+    SDK has not been initialized yet
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[SDK_INITIALIZATION_FAILED](#/s:9embed_sdk10ErrorCodesO25SDK_INITIALIZATION_FAILEDyA2CmF)`
     
-    Undocumented
+    SDK initialization failed
     
     #### Declaration
     
@@ -56,7 +56,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[WORKFLOW_ALREADY_IN_PROGRESS](#/s:9embed_sdk10ErrorCodesO28WORKFLOW_ALREADY_IN_PROGRESSyA2CmF)`
     
-    Undocumented
+    Another workflow is already running
     
     #### Declaration
     
@@ -68,7 +68,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[SDK_INTERNAL_ERROR](#/s:9embed_sdk10ErrorCodesO18SDK_INTERNAL_ERRORyA2CmF)`
     
-    Undocumented
+    Internal SDK error occurred
     
     #### Declaration
     
@@ -80,7 +80,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[IMS_JUMP_FAILED](#/s:9embed_sdk10ErrorCodesO15IMS_JUMP_FAILEDyA2CmF)`
     
-    Undocumented
+    IMS jump authentication failed
     
     #### Declaration
     
@@ -92,7 +92,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[NO_ACTIVE_WORKFLOW](#/s:9embed_sdk10ErrorCodesO18NO_ACTIVE_WORKFLOWyA2CmF)`
     
-    Undocumented
+    No active workflow to operate on
     
     #### Declaration
     
@@ -104,7 +104,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[WARMUP_CANCELLED](#/s:9embed_sdk10ErrorCodesO16WARMUP_CANCELLEDyA2CmF)`
     
-    Undocumented
+    Warmup operation was cancelled
     
     #### Declaration
     
@@ -116,7 +116,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[WARMUP_FAILED](#/s:9embed_sdk10ErrorCodesO13WARMUP_FAILEDyA2CmF)`
     
-    Undocumented
+    Warmup operation failed
     
     #### Declaration
     
@@ -128,7 +128,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[PARAMS_REQUEST_FAILED](#/s:9embed_sdk10ErrorCodesO21PARAMS_REQUEST_FAILEDyA2CmF)`
     
-    Undocumented
+    Request for parameters failed
     
     #### Declaration
     
@@ -140,7 +140,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[JSON_PARSE_DECODING_ERROR](#/s:9embed_sdk10ErrorCodesO25JSON_PARSE_DECODING_ERRORyA2CmF)`
     
-    Undocumented
+    JSON decoding error
     
     #### Declaration
     
@@ -152,7 +152,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[JSON_PARSE_ENCODING_ERROR](#/s:9embed_sdk10ErrorCodesO25JSON_PARSE_ENCODING_ERRORyA2CmF)`
     
-    Undocumented
+    JSON encoding error
     
     #### Declaration
     
@@ -164,7 +164,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[ANALYTICS_ERROR](#/s:9embed_sdk10ErrorCodesO15ANALYTICS_ERRORyA2CmF)`
     
-    Undocumented
+    Analytics error
     
     #### Declaration
     
@@ -176,7 +176,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[PERFORMANCE_LOGGING_ERROR](#/s:9embed_sdk10ErrorCodesO25PERFORMANCE_LOGGING_ERRORyA2CmF)`
     
-    Undocumented
+    Performance logging error
     
     #### Declaration
     
@@ -188,7 +188,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[TARGET_LOAD_ERROR](#/s:9embed_sdk10ErrorCodesO17TARGET_LOAD_ERRORyA2CmF)`
     
-    Undocumented
+    Target resource failed to load
     
     #### Declaration
     
@@ -200,7 +200,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[TARGET_LOAD_CANCELLED](#/s:9embed_sdk10ErrorCodesO21TARGET_LOAD_CANCELLEDyA2CmF)`
     
-    Undocumented
+    Target resource loading was cancelled
     
     #### Declaration
     
@@ -212,7 +212,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[ACTION_LAUNCH_ERROR](#/s:9embed_sdk10ErrorCodesO19ACTION_LAUNCH_ERRORyA2CmF)`
     
-    Undocumented
+    Action launch error
     
     #### Declaration
     
@@ -224,7 +224,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[INVALID_TOKEN](#/s:9embed_sdk10ErrorCodesO13INVALID_TOKENyA2CmF)`
     
-    Undocumented
+    Authentication token is invalid
     
     #### Declaration
     
@@ -236,7 +236,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[VALIDATE_TOKEN_FAILED](#/s:9embed_sdk10ErrorCodesO21VALIDATE_TOKEN_FAILEDyA2CmF)`
     
-    Undocumented
+    Token validation failed
     
     #### Declaration
     
@@ -248,7 +248,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[LOGIN_ERROR](#/s:9embed_sdk10ErrorCodesO11LOGIN_ERRORyA2CmF)`
     
-    Undocumented
+    Login error
     
     #### Declaration
     
@@ -260,7 +260,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[INTERNET_NOT_AVAILABLE](#/s:9embed_sdk10ErrorCodesO22INTERNET_NOT_AVAILABLEyA2CmF)`
     
-    Undocumented
+    Internet connection is not available
     
     #### Declaration
     
@@ -272,7 +272,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[CLIENT_AUTH_PROVIDER_ERROR](#/s:9embed_sdk10ErrorCodesO26CLIENT_AUTH_PROVIDER_ERRORyA2CmF)`
     
-    Undocumented
+    Client authentication provider error
     
     #### Declaration
     
@@ -284,7 +284,7 @@ Enum ErrorCodes defines a set of static constants that represent different error
     
 -   `[UNSUPPORTED_API](#/s:9embed_sdk10ErrorCodesO15UNSUPPORTED_APIyA2CmF)`
     
-    Undocumented
+    API is not supported
     
     #### Declaration
     

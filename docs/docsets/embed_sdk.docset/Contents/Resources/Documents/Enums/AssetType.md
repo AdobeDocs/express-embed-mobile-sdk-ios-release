@@ -4,11 +4,11 @@
 public enum AssetType : String, Codable
 ```
 
-Undocumented
+Asset content type. Specifies the type of media content.
 
 -   `[IMAGE](#/s:9embed_sdk9AssetTypeO5IMAGEyA2CmF)`
     
-    Undocumented
+    Image content
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[VIDEO](#/s:9embed_sdk9AssetTypeO5VIDEOyA2CmF)`
     
-    Undocumented
+    Video content
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[PDF](#/s:9embed_sdk9AssetTypeO3PDFyA2CmF)`
     
-    Undocumented
+    PDF document
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Undocumented
     
 -   `[PSD](#/s:9embed_sdk9AssetTypeO3PSDyA2CmF)`
     
-    Undocumented
+    Photoshop document
     
     #### Declaration
     

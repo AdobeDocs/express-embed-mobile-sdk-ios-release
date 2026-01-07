@@ -4,11 +4,11 @@
 public enum Locale : String, Codable, CaseIterable
 ```
 
-Undocumented
+Supported locales for the SDK. These locales determine the language and regional formatting used in the SDK interface. For a complete list of supported locales, see Adobe Express documentation.
 
 -   `[ENGLISH](#/s:9embed_sdk6LocaleO7ENGLISHyA2CmF)`
     
-    Undocumented
+    English (United States)
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[FRENCH](#/s:9embed_sdk6LocaleO6FRENCHyA2CmF)`
     
-    Undocumented
+    French (France)
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[GERMAN](#/s:9embed_sdk6LocaleO6GERMANyA2CmF)`
     
-    Undocumented
+    German (Germany)
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Undocumented
     
 -   `[JAPANESE](#/s:9embed_sdk6LocaleO8JAPANESEyA2CmF)`
     
-    Undocumented
+    Japanese (Japan)
     
     #### Declaration
     
@@ -56,7 +56,7 @@ Undocumented
     
 -   `[ITALIAN](#/s:9embed_sdk6LocaleO7ITALIANyA2CmF)`
     
-    Undocumented
+    Italian (Italy)
     
     #### Declaration
     
@@ -68,7 +68,7 @@ Undocumented
     
 -   `[SPANISH](#/s:9embed_sdk6LocaleO7SPANISHyA2CmF)`
     
-    Undocumented
+    Spanish (Spain)
     
     #### Declaration
     
@@ -80,7 +80,7 @@ Undocumented
     
 -   `[PORTUGUESE](#/s:9embed_sdk6LocaleO10PORTUGUESEyA2CmF)`
     
-    Undocumented
+    Portuguese (Brazil)
     
     #### Declaration
     
@@ -92,7 +92,7 @@ Undocumented
     
 -   `[KOREAN](#/s:9embed_sdk6LocaleO6KOREANyA2CmF)`
     
-    Undocumented
+    Korean (South Korea)
     
     #### Declaration
     
@@ -104,7 +104,7 @@ Undocumented
     
 -   `[DANISH](#/s:9embed_sdk6LocaleO6DANISHyA2CmF)`
     
-    Undocumented
+    Danish (Denmark)
     
     #### Declaration
     
@@ -116,7 +116,7 @@ Undocumented
     
 -   `[DUTCH](#/s:9embed_sdk6LocaleO5DUTCHyA2CmF)`
     
-    Undocumented
+    Dutch (Netherlands)
     
     #### Declaration
     
@@ -128,7 +128,7 @@ Undocumented
     
 -   `[NORWEGIAN](#/s:9embed_sdk6LocaleO9NORWEGIANyA2CmF)`
     
-    Undocumented
+    Norwegian (Norway)
     
     #### Declaration
     
@@ -140,7 +140,7 @@ Undocumented
     
 -   `[SWEDISH](#/s:9embed_sdk6LocaleO7SWEDISHyA2CmF)`
     
-    Undocumented
+    Swedish (Sweden)
     
     #### Declaration
     
@@ -152,7 +152,7 @@ Undocumented
     
 -   `[FINNISH](#/s:9embed_sdk6LocaleO7FINNISHyA2CmF)`
     
-    Undocumented
+    Finnish (Finland)
     
     #### Declaration
     
@@ -164,7 +164,7 @@ Undocumented
     
 -   `[CHINESE_SIMPLIFIED](#/s:9embed_sdk6LocaleO18CHINESE_SIMPLIFIEDyA2CmF)`
     
-    Undocumented
+    Chinese Simplified (China)
     
     #### Declaration
     
@@ -176,7 +176,7 @@ Undocumented
     
 -   `[CHINESE_TRADITIONAL](#/s:9embed_sdk6LocaleO19CHINESE_TRADITIONALyA2CmF)`
     
-    Undocumented
+    Chinese Traditional (Taiwan)
     
     #### Declaration
     

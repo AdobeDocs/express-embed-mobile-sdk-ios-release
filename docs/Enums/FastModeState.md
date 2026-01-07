@@ -4,7 +4,7 @@
 public enum FastModeState : String, Codable
 ```
 
-Undocumented
+Fast mode state for text-to-image generation.
 
 -   `[ON](#/s:9embed_sdk13FastModeStateO2ONyA2CmF)`
     

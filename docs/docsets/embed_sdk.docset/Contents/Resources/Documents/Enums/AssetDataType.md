@@ -4,11 +4,11 @@
 public enum AssetDataType : String, Codable
 ```
 
-Undocumented
+Asset data encoding type. Specifies how the asset data is encoded and transmitted.
 
 -   `[BASE64](#/s:9embed_sdk13AssetDataTypeO6BASE64yA2CmF)`
     
-    Undocumented
+    Base64 encoded string
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[URL](#/s:9embed_sdk13AssetDataTypeO3URLyA2CmF)`
     
-    Undocumented
+    URL reference to the asset
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[BLOB](#/s:9embed_sdk13AssetDataTypeO4BLOByA2CmF)`
     
-    Undocumented
+    Binary blob data
     
     #### Declaration
     

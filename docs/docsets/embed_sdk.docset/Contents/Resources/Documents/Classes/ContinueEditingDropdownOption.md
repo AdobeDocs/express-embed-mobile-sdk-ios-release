@@ -4,7 +4,11 @@
 public class ContinueEditingDropdownOption : BaseExportOption
 ```
 
-Undocumented
+Continue editing dropdown option configuration.
+
+\## Properties
+
+-   `label`: Display label for the option
 
 -   `[label](#/s:9embed_sdk29ContinueEditingDropdownOptionC5labelSSSgvp)`
     
@@ -20,7 +24,7 @@ Undocumented
     
 -   `[init(id:style:action:label:)](#/s:9embed_sdk29ContinueEditingDropdownOptionC2id5style6action5labelACSS_AA0eF5StyleCAA17EditFurtherActionVSSSgtcfc)`
     
-    Undocumented
+    Creates a continue editing dropdown option.
     
     #### Declaration
     
@@ -34,6 +38,10 @@ Undocumented
         label: String?
     )
     ```
+    
+    #### Parameters
+    
+    <table class="graybox"><tbody><tr><td><code><em>id</em></code></td><td><div><p>Unique identifier</p></div></td></tr><tr><td><code><em>style</em></code></td><td><div><p>Dropdown option style</p></div></td></tr><tr><td><code><em>action</em></code></td><td><div><p>Continue editing action</p></div></td></tr><tr><td><code><em>label</em></code></td><td><div><p>Display label (optional)</p></div></td></tr></tbody></table>
     
 -   `[encode(to:)](#/s:9embed_sdk29ContinueEditingDropdownOptionC6encode2toys7Encoder_p_tKF)`
     

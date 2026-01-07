@@ -18,7 +18,7 @@ The following enumerations are available globally.
     
 -   `[ErrorMessages](#/s:9embed_sdk13ErrorMessagesO)`
     
-    Enum ErrorMessages defines a set of static constants that represent different error states related to SDK initialization
+    Human-readable error messages for SDK error codes. Provides descriptive error messages corresponding to ErrorCodes.
     
     [See more](Enums/ErrorMessages.md)
     
@@ -32,7 +32,7 @@ The following enumerations are available globally.
     
 -   `[ModuleIntent](#/s:9embed_sdk12ModuleIntentO)`
     
-    Undocumented
+    Module workflow intents. Identifies comprehensive editing workflows available in the SDK.
     
     [See more](Enums/ModuleIntent.md)
     
@@ -46,7 +46,7 @@ The following enumerations are available globally.
     
 -   `[ImageQuickActionIntent](#/s:9embed_sdk22ImageQuickActionIntentO)`
     
-    Undocumented
+    Image quick action intents. Specific quick actions available for image editing.
     
     [See more](Enums/ImageQuickActionIntent.md)
     
@@ -74,7 +74,7 @@ The following enumerations are available globally.
     
 -   `[FileType](#/s:9embed_sdk8FileTypeO)`
     
-    Undocumented
+    File type for assets. Represents the MIME type and format of a file.
     
     [See more](Enums/FileType.md)
     
@@ -88,7 +88,7 @@ The following enumerations are available globally.
     
 -   `[ImageFileType](#/s:9embed_sdk13ImageFileTypeO)`
     
-    Undocumented
+    Supported image file formats.
     
     [See more](Enums/ImageFileType.md)
     
@@ -102,7 +102,7 @@ The following enumerations are available globally.
     
 -   `[VideoFileType](#/s:9embed_sdk13VideoFileTypeO)`
     
-    Undocumented
+    Supported video file formats.
     
     [See more](Enums/VideoFileType.md)
     
@@ -116,7 +116,7 @@ The following enumerations are available globally.
     
 -   `[PdfFileType](#/s:9embed_sdk11PdfFileTypeO)`
     
-    Undocumented
+    Supported PDF file format.
     
     [See more](Enums/PdfFileType.md)
     
@@ -144,7 +144,7 @@ The following enumerations are available globally.
     
 -   `[SizeUnit](#/s:9embed_sdk8SizeUnitO)`
     
-    Undocumented
+    Units of measurement for size dimensions.
     
     [See more](Enums/SizeUnit.md)
     
@@ -158,7 +158,7 @@ The following enumerations are available globally.
     
 -   `[AssetType](#/s:9embed_sdk9AssetTypeO)`
     
-    Undocumented
+    Asset content type. Specifies the type of media content.
     
     [See more](Enums/AssetType.md)
     
@@ -172,7 +172,7 @@ The following enumerations are available globally.
     
 -   `[AssetDataType](#/s:9embed_sdk13AssetDataTypeO)`
     
-    Undocumented
+    Asset data encoding type. Specifies how the asset data is encoded and transmitted.
     
     [See more](Enums/AssetDataType.md)
     
@@ -200,7 +200,7 @@ The following enumerations are available globally.
     
 -   `[AspectRatio](#/s:9embed_sdk11AspectRatioO)`
     
-    Undocumented
+    Image aspect ratio presets. Common aspect ratios for image generation and editing.
     
     [See more](Enums/AspectRatio.md)
     
@@ -216,7 +216,9 @@ The following enumerations are available globally.
     
     Authentication modes determining when and how users are authenticated.
     
-    @property rawValue String identifier for the authentication mode
+    \## Properties
+    
+    -   `rawValue`: String identifier for the authentication mode
     
     [See more](Enums/AuthMode.md)
     
@@ -244,7 +246,7 @@ The following enumerations are available globally.
     
 -   `[ExportOptionUI](#/s:9embed_sdk14ExportOptionUIO)`
     
-    Undocumented
+    UI type for export option presentation. Defines how an export option should be displayed in the user interface.
     
     [See more](Enums/ExportOptionUI.md)
     
@@ -286,7 +288,7 @@ The following enumerations are available globally.
     
 -   `[PublishTarget](#/s:9embed_sdk13PublishTargetO)`
     
-    Undocumented
+    Publish export target. Represents a custom publish/export action to the host application.
     
     [See more](Enums/PublishTarget.md)
     
@@ -300,7 +302,7 @@ The following enumerations are available globally.
     
 -   `[DownloadTarget](#/s:9embed_sdk14DownloadTargetO)`
     
-    Undocumented
+    Download export target. Represents downloading the created/edited content.
     
     [See more](Enums/DownloadTarget.md)
     
@@ -314,7 +316,7 @@ The following enumerations are available globally.
     
 -   `[EditFurtherTarget](#/s:9embed_sdk17EditFurtherTargetO)`
     
-    Undocumented
+    Edit further export target. Represents continuing editing in another workflow or full editor.
     
     [See more](Enums/EditFurtherTarget.md)
     
@@ -328,7 +330,7 @@ The following enumerations are available globally.
     
 -   `[EditFurtherIntent](#/s:9embed_sdk17EditFurtherIntentO)`
     
-    Undocumented
+    Editing intents for continue editing actions. Specifies which editing tool or capability to launch when continuing editing.
     
     [See more](Enums/EditFurtherIntent.md)
     
@@ -342,7 +344,7 @@ The following enumerations are available globally.
     
 -   `[EditImageIntent](#/s:9embed_sdk15EditImageIntentO)`
     
-    Undocumented
+    Editing intents specifically for Edit Image workflow.
     
     [See more](Enums/EditImageIntent.md)
     
@@ -356,7 +358,7 @@ The following enumerations are available globally.
     
 -   `[ExportContext](#/s:9embed_sdk13ExportContextO)`
     
-    Undocumented
+    Context for export actions.
     
     [See more](Enums/ExportContext.md)
     
@@ -414,7 +416,9 @@ The following enumerations are available globally.
     
     Platform type
     
-    @property rawValue String identifier for the platform
+    \## Properties
+    
+    -   `rawValue`: String identifier for the platform
     
     [See more](Enums/PlatformCategory.md)
     
@@ -428,7 +432,7 @@ The following enumerations are available globally.
     
 -   `[Locale](#/s:9embed_sdk6LocaleO)`
     
-    Undocumented
+    Supported locales for the SDK. These locales determine the language and regional formatting used in the SDK interface. For a complete list of supported locales, see Adobe Express documentation.
     
     [See more](Enums/Locale.md)
     
@@ -442,7 +446,7 @@ The following enumerations are available globally.
     
 -   `[ColorTheme](#/s:9embed_sdk10ColorThemeO)`
     
-    Undocumented
+    Color theme options for the editor UI.
     
     [See more](Enums/ColorTheme.md)
     
@@ -456,7 +460,7 @@ The following enumerations are available globally.
     
 -   `[SpectrumTheme](#/s:9embed_sdk13SpectrumThemeO)`
     
-    Undocumented
+    Spectrum design system theme options.
     
     [See more](Enums/SpectrumTheme.md)
     
@@ -470,7 +474,7 @@ The following enumerations are available globally.
     
 -   `[ThumbnailOption](#/s:9embed_sdk15ThumbnailOptionO)`
     
-    Undocumented
+    Thumbnail display options for generated/edited images.
     
     [See more](Enums/ThumbnailOption.md)
     
@@ -484,7 +488,7 @@ The following enumerations are available globally.
     
 -   `[FastModeState](#/s:9embed_sdk13FastModeStateO)`
     
-    Undocumented
+    Fast mode state for text-to-image generation.
     
     [See more](Enums/FastModeState.md)
     
@@ -498,7 +502,7 @@ The following enumerations are available globally.
     
 -   `[TextToImageFeature](#/s:9embed_sdk18TextToImageFeatureO)`
     
-    Undocumented
+    Feature flags for text-to-image workflow.
     
     [See more](Enums/TextToImageFeature.md)
     
