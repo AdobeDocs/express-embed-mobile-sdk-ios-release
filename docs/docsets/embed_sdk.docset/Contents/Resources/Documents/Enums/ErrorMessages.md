@@ -4,7 +4,7 @@
 public enum ErrorMessages : String, CaseIterable
 ```
 
-Enum ErrorMessages defines a set of static constants that represent different error states related to SDK initialization
+Human-readable error messages for SDK error codes. Provides descriptive error messages corresponding to ErrorCodes.
 
 -   `[SDK_ALREADY_INITIALIZED](#/s:9embed_sdk13ErrorMessagesO23SDK_ALREADY_INITIALIZEDyA2CmF)`
     

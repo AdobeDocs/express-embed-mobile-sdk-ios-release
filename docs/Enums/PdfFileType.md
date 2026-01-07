@@ -4,11 +4,11 @@
 public enum PdfFileType : String, Codable
 ```
 
-Undocumented
+Supported PDF file format.
 
 -   `[PDF](#/s:9embed_sdk11PdfFileTypeO3PDFyA2CmF)`
     
-    Undocumented
+    PDF document format
     
     #### Declaration
     

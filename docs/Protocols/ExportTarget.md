@@ -4,7 +4,7 @@
 public protocol ExportTarget : Decodable, Encodable
 ```
 
-Undocumented
+Protocol for export action target types. Defines the destination for an export action.
 
 -   `[rawValue](#/s:9embed_sdk12ExportTargetP8rawValueSSvp)`
     

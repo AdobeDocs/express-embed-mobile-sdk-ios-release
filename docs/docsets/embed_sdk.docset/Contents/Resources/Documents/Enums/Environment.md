@@ -8,7 +8,7 @@ Enum defined to represent the Environment of the project
 
 -   `[STAGE](#/s:9embed_sdk11EnvironmentO5STAGEyA2CmF)`
     
-    Undocumented
+    Staging environment for development and testing
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Enum defined to represent the Environment of the project
     
 -   `[PRODUCTION](#/s:9embed_sdk11EnvironmentO10PRODUCTIONyA2CmF)`
     
-    Undocumented
+    Production environment for released applications
     
     #### Declaration
     

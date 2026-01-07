@@ -10,7 +10,11 @@ extension ConfigParamsBase: CCEverywhereTypesValidationProvider
 
 Base SDK configuration parameters.
 
-@property locale Locale string in “language\_REGION” format @property skipBrowserSupportCheck Whether to skip browser support validation @property env SDK environment (defaults to PRODUCTION)
+\## Properties
+
+-   `locale`: Locale string in “language\_REGION” format
+-   `skipBrowserSupportCheck`: Whether to skip browser support validation
+-   `env`: SDK environment (defaults to PRODUCTION)
 
 -   `[init(locale:env:)](#/s:9embed_sdk16ConfigParamsBaseC6locale3envACSSSg_AA11EnvironmentOSgtcfc)`
     

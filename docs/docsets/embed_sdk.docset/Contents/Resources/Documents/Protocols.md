@@ -32,7 +32,7 @@ The following protocols are available globally.
     
 -   `[ActionIntentTypes](#/s:9embed_sdk17ActionIntentTypesP)`
     
-    Undocumented
+    Protocol for action intent types. Base protocol for all workflow intent identifiers.
     
     [See more](Protocols/ActionIntentTypes.md)
     
@@ -46,7 +46,7 @@ The following protocols are available globally.
     
 -   `[QuickActionIntent](#/s:9embed_sdk17QuickActionIntentP)`
     
-    Undocumented
+    Protocol for quick action intents. Identifies focused, single-purpose editing tools.
     
     #### Declaration
     
@@ -58,7 +58,7 @@ The following protocols are available globally.
     
 -   `[Size](#/s:9embed_sdk4SizeP)`
     
-    Undocumented
+    Protocol for size dimensions.
     
     [See more](Protocols/Size.md)
     
@@ -86,7 +86,7 @@ The following protocols are available globally.
     
 -   `[Callbacks](#/s:9embed_sdk9CallbacksP)`
     
-    Undocumented
+    Callback protocol for SDK workflow lifecycle events.
     
     [See more](Protocols/Callbacks.md)
     
@@ -142,7 +142,7 @@ The following protocols are available globally.
     
 -   `[ExportTarget](#/s:9embed_sdk12ExportTargetP)`
     
-    Undocumented
+    Protocol for export action target types. Defines the destination for an export action.
     
     [See more](Protocols/ExportTarget.md)
     
@@ -156,7 +156,7 @@ The following protocols are available globally.
     
 -   `[BaseActionInterface](#/s:9embed_sdk19BaseActionInterfaceP)`
     
-    Undocumented
+    Base protocol for export actions. All export actions must specify a target destination.
     
     [See more](Protocols/BaseActionInterface.md)
     
@@ -184,7 +184,7 @@ The following protocols are available globally.
     
 -   `[ModuleWorkflowInterface](#/s:9embed_sdk23ModuleWorkflowInterfaceP)`
     
-    Undocumented
+    Module workflow interface providing access to comprehensive creative editing workflows.
     
     [See more](Protocols/ModuleWorkflowInterface.md)
     

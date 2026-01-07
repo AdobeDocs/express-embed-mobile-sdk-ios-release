@@ -4,11 +4,11 @@
 public enum ColorTheme : String, Codable
 ```
 
-Undocumented
+Color theme options for the editor UI.
 
 -   `[LIGHTEST](#/s:9embed_sdk10ColorThemeO8LIGHTESTyA2CmF)`
     
-    Undocumented
+    Lightest theme (brightest background)
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[LIGHT](#/s:9embed_sdk10ColorThemeO5LIGHTyA2CmF)`
     
-    Undocumented
+    Light theme
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[DARK](#/s:9embed_sdk10ColorThemeO4DARKyA2CmF)`
     
-    Undocumented
+    Dark theme
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Undocumented
     
 -   `[DARKEST](#/s:9embed_sdk10ColorThemeO7DARKESTyA2CmF)`
     
-    Undocumented
+    Darkest theme (darkest background)
     
     #### Declaration
     

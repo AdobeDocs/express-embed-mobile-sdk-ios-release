@@ -4,7 +4,12 @@ The following structures are available globally.
 
 -   `[ErrorCodeMessages](#/s:9embed_sdk17ErrorCodeMessagesV)`
     
-    Undocumented
+    Structured error information combining code and message.
+    
+    \## Properties
+    
+    -   `code`: Error code string
+    -   `message`: Error message description
     
     [See more](Structs/ErrorCodeMessages.md)
     
@@ -44,7 +49,13 @@ The following structures are available globally.
     
 -   `[PixelSize](#/s:9embed_sdk9PixelSizeV)`
     
-    Undocumented
+    Size dimensions in pixels. Represents width and height in pixel units.
+    
+    \## Properties
+    
+    -   `width`: Width in pixels
+    -   `height`: Height in pixels
+    -   `unit`: Unit of measurement (always PIXELS)
     
     [See more](Structs/PixelSize.md)
     
@@ -70,7 +81,17 @@ The following structures are available globally.
     
 -   `[OutputAsset](#/s:9embed_sdk11OutputAssetV)`
     
-    Undocumented
+    Output asset from SDK workflows.
+    
+    \## Properties
+    
+    -   `fileType`: File format and MIME type
+    -   `fileName`: Name of the output file
+    -   `size`: Dimensions of the asset (for images/videos)
+    -   `type`: Content type (image, video, PDF)
+    -   `name`: Optional display name
+    -   `dataType`: How the asset data is encoded
+    -   `data`: The actual asset data
     
     [See more](Structs/OutputAsset.md)
     
@@ -84,7 +105,12 @@ The following structures are available globally.
     
 -   `[ImageDimensions](#/s:9embed_sdk15ImageDimensionsV)`
     
-    Undocumented
+    Image dimension constraints. Specifies the size and aspect ratio for image generation.
+    
+    \## Properties
+    
+    -   `size`: Pixel dimensions
+    -   `aspectRatio`: Aspect ratio constraint
     
     [See more](Structs/ImageDimensions.md)
     
@@ -98,7 +124,13 @@ The following structures are available globally.
     
 -   `[IntentChangeConfig](#/s:9embed_sdk18IntentChangeConfigV)`
     
-    Undocumented
+    Configuration for dynamic intent changes.
+    
+    \## Properties
+    
+    -   `appConfig`: Updated application configuration (optional)
+    -   `exportConfig`: Updated export configuration (optional)
+    -   `containerConfig`: Updated container configuration (optional)
     
     [See more](Structs/IntentChangeConfig.md)
     
@@ -126,7 +158,14 @@ The following structures are available globally.
     
 -   `[PublishAction](#/s:9embed_sdk13PublishActionV)`
     
-    Undocumented
+    Publish action configuration. Defines a publish/export action that sends content back to the host application.
+    
+    \## Properties
+    
+    -   `target`: The publish target (always PUBLISH)
+    -   `publishFileType`: Desired file type for the published asset
+    -   `closeTargetOnExport`: Whether to close the workflow after export
+    -   `outputType`: Output data type (base64, URL, or blob)
     
     [See more](Structs/PublishAction.md)
     
@@ -140,7 +179,12 @@ The following structures are available globally.
     
 -   `[DownloadAction](#/s:9embed_sdk14DownloadActionV)`
     
-    Undocumented
+    Download action configuration. Defines a download action that allows users to save content to their device.
+    
+    \## Properties
+    
+    -   `target`: The download target (DOWNLOAD or DOWNLOAD\_ALL)
+    -   `closeTargetOnExport`: Whether to close the workflow after download
     
     [See more](Structs/DownloadAction.md)
     
@@ -154,7 +198,13 @@ The following structures are available globally.
     
 -   `[EditFurtherAction](#/s:9embed_sdk17EditFurtherActionV)`
     
-    Undocumented
+    Edit further/continue editing action configuration. Defines an action to continue editing the content in another workflow or tool.
+    
+    \## Properties
+    
+    -   `target`: The editing target (EXPRESS or IMAGE\_MODULE)
+    -   `intent`: Specific editing tool to launch (optional)
+    -   `context`: Whether to edit in same or new context (optional)
     
     [See more](Structs/EditFurtherAction.md)
     
@@ -180,7 +230,13 @@ The following structures are available globally.
     
 -   `[PublishParams](#/s:9embed_sdk13PublishParamsV)`
     
-    Undocumented
+    Parameters for publish/export callbacks. Contains the exported assets and metadata when content is published from the SDK.
+    
+    \## Properties
+    
+    -   `asset`: Array of output assets (images, videos, PDFs)
+    -   `exportButtonId`: ID of the export button that was clicked
+    -   `documentId`: Optional document ID for the created/edited content
     
     [See more](Structs/PublishParams.md)
     
@@ -196,7 +252,11 @@ The following structures are available globally.
     
     Semantic version number for host application versioning.
     
-    @property major Major version number (required) @property minor Minor version number (required) @property patch Patch version number (optional)
+    \## Properties
+    
+    -   `major`: Major version number (required)
+    -   `minor`: Minor version number (required)
+    -   `patch`: Patch version number (optional)
     
     [See more](Structs/Version.md)
     
@@ -214,7 +274,11 @@ The following structures are available globally.
     
 -   `[EditDropdownOptionConfig](#/s:9embed_sdk24EditDropdownOptionConfigV)`
     
-    Undocumented
+    Configuration for edit dropdown options in the editor.
+    
+    \## Properties
+    
+    -   `option`: The editing intent/tool to include in the dropdown
     
     [See more](Structs/EditDropdownOptionConfig.md)
     
@@ -228,7 +292,12 @@ The following structures are available globally.
     
 -   `[PublishConfig](#/s:9embed_sdk13PublishConfigV)`
     
-    Undocumented
+    Configuration for publish/export action. Defines a custom publish action with identifier and display label.
+    
+    \## Properties
+    
+    -   `id`: Unique identifier for the publish action
+    -   `label`: Display label shown to the user
     
     [See more](Structs/PublishConfig.md)
     
@@ -242,7 +311,11 @@ The following structures are available globally.
     
 -   `[FastModeConfig](#/s:9embed_sdk14FastModeConfigV)`
     
-    Undocumented
+    Configuration for fast mode behavior.
+    
+    \## Properties
+    
+    -   `defaultFastModeState`:
     
     [See more](Structs/FastModeConfig.md)
     

@@ -4,11 +4,11 @@
 public enum PublishTarget : String, ExportTarget, Codable
 ```
 
-Undocumented
+Publish export target. Represents a custom publish/export action to the host application.
 
 -   `[PUBLISH](#/s:9embed_sdk13PublishTargetO7PUBLISHyA2CmF)`
     
-    Undocumented
+    Publish to host application
     
     #### Declaration
     

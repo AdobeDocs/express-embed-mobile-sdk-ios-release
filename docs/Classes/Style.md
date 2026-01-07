@@ -4,7 +4,11 @@
 public class Style : Codable
 ```
 
-Undocumented
+Style configuration for export options. Defines the visual presentation style for export actions.
+
+\## Properties
+
+-   `uiType`: The UI type for the export option
 
 -   `[init(uiType:)](#/s:9embed_sdk5StyleC6uiTypeAcA14ExportOptionUIO_tcfc)`
     

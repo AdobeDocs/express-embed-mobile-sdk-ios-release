@@ -31,6 +31,8 @@ The following classes are available globally.
     
     * * *
     
+    Adobe Express Embed SDK main entry point.
+    
     [See more](Classes/ExpressEmbedSdk.md)
     
     #### Declaration
@@ -45,7 +47,9 @@ The following classes are available globally.
     
     Class for providing authentication configuration to the SDK.
     
-    @property authOption Authentication option containing mode and configuration
+    \## Properties
+    
+    -   `authOption`: Authentication option containing mode and configuration
     
     [See more](Classes/AuthProvider.md)
     
@@ -61,7 +65,12 @@ The following classes are available globally.
     
     Main exception class for all Adobe Express Embed SDK errors.
     
-    @property code Error code identifier @property message Error description @property subError Nested error that caused this error (error chaining) @property customData Additional context data for debugging
+    \## Properties
+    
+    -   `code`: Error code identifier
+    -   `message`: Error description
+    -   `subError`: Nested error that caused this error (error chaining)
+    -   `customData`: Additional context data for debugging
     
     [See more](Classes/CCEverywhereError.md)
     
@@ -89,7 +98,11 @@ The following classes are available globally.
     
 -   `[ActionIntent](#/s:9embed_sdk12ActionIntentC)`
     
-    Undocumented
+    Action intent identifier.
+    
+    \## Properties
+    
+    -   `rawValue`: String identifier for the intent
     
     [See more](Classes/ActionIntent.md)
     
@@ -103,7 +116,14 @@ The following classes are available globally.
     
 -   `[Asset](#/s:9embed_sdk5AssetC)`
     
-    Undocumented
+    Asset for input to SDK workflows. Represents an asset (image, video, PDF) to be edited or used as reference in SDK workflows.
+    
+    \## Properties
+    
+    -   `type`: Content type (image, video, PDF, PSD)
+    -   `name`: Optional display name
+    -   `dataType`: How the asset data is encoded
+    -   `data`: The actual asset data
     
     [See more](Classes/Asset.md)
     
@@ -117,7 +137,11 @@ The following classes are available globally.
     
 -   `[Base64Asset](#/s:9embed_sdk11Base64AssetC)`
     
-    Undocumented
+    Asset with base64-encoded data. Convenience class for creating assets with base64-encoded content.
+    
+    \## Properties
+    
+    -   `data`: Base64-encoded string
     
     #### Declaration
     
@@ -129,7 +153,11 @@ The following classes are available globally.
     
 -   `[UrlAsset](#/s:9embed_sdk8UrlAssetC)`
     
-    Undocumented
+    Asset with URL reference. Convenience class for creating assets that reference content via URL.
+    
+    \## Properties
+    
+    -   `data`: URL string pointing to the asset
     
     #### Declaration
     
@@ -141,7 +169,11 @@ The following classes are available globally.
     
 -   `[BlobAsset](#/s:9embed_sdk9BlobAssetC)`
     
-    Undocumented
+    Asset with binary blob data. Convenience class for creating assets with binary blob content.
+    
+    \## Properties
+    
+    -   `data`: Binary blob data
     
     [See more](Classes/BlobAsset.md)
     
@@ -157,7 +189,10 @@ The following classes are available globally.
     
     Authentication configuration specifying mode and related settings.
     
-    @property mode Authentication mode identifier @property config Authentication configuration
+    \## Properties
+    
+    -   `mode`: Authentication mode identifier
+    -   `config`: Authentication configuration
     
     [See more](Classes/AuthOption.md)
     
@@ -213,7 +248,12 @@ The following classes are available globally.
     
 -   `[UpfrontAuthOption](#/s:9embed_sdk17UpfrontAuthOptionC)`
     
-    Undocumented
+    Upfront authentication option. Requires users to authenticate before accessing any SDK features.
+    
+    \## Properties
+    
+    -   `mode`: Authentication mode (UPFRONT)
+    -   `config`: Optional auth configuration with email/domain prefill
     
     [See more](Classes/UpfrontAuthOption.md)
     
@@ -227,7 +267,12 @@ The following classes are available globally.
     
 -   `[DelayedAuthOption](#/s:9embed_sdk17DelayedAuthOptionC)`
     
-    Undocumented
+    Delayed authentication option. Allows users to access SDK features without authentication, prompting for sign-in only when necessary (e.g., before saving/exporting).
+    
+    \## Properties
+    
+    -   `mode`: Authentication mode (DELAYED)
+    -   `config`: Optional auth configuration with email/domain prefill
     
     [See more](Classes/DelayedAuthOption.md)
     
@@ -241,7 +286,12 @@ The following classes are available globally.
     
 -   `[PreSignedInAuthOption](#/s:9embed_sdk21PreSignedInAuthOptionC)`
     
-    Undocumented
+    Pre-signed-in authentication option.
+    
+    \## Properties
+    
+    -   `mode`: Authentication mode (PRE\_SIGNED\_IN)
+    -   `config`: Optional pre-signed-in configuration with user ID and analytics preferences
     
     [See more](Classes/PreSignedInAuthOption.md)
     
@@ -255,7 +305,12 @@ The following classes are available globally.
     
 -   `[ImsJumpAuthOption](#/s:9embed_sdk17ImsJumpAuthOptionC)`
     
-    Undocumented
+    IMS Jump authentication option. Uses Adobe IMS authentication with jump URL mechanism for SSO. Suitable for 1st party Adobe desktop applications.
+    
+    \## Properties
+    
+    -   `mode`: Authentication mode (IMS\_JUMP)
+    -   `config`: IMS auth configuration with access token and settings
     
     [See more](Classes/ImsJumpAuthOption.md)
     
@@ -285,7 +340,11 @@ The following classes are available globally.
     
     Base SDK configuration parameters.
     
-    @property locale Locale string in “language\_REGION” format @property skipBrowserSupportCheck Whether to skip browser support validation @property env SDK environment (defaults to PRODUCTION)
+    \## Properties
+    
+    -   `locale`: Locale string in “language\_REGION” format
+    -   `skipBrowserSupportCheck`: Whether to skip browser support validation
+    -   `env`: SDK environment (defaults to PRODUCTION)
     
     [See more](Classes/ConfigParamsBase.md)
     
@@ -303,7 +362,14 @@ The following classes are available globally.
     
 -   `[BaseContainerConfig](#/s:9embed_sdk19BaseContainerConfigC)`
     
-    Undocumented
+    Base container configuration for SDK workflows. Contains common display and behavior settings for all container types.
+    
+    \## Properties
+    
+    -   `backgroundColor`: Background color (hex string)
+    -   `showLoader`: Whether to show loading indicator
+    -   `loadTimeout`: Timeout in milliseconds for loading
+    -   `hideCloseButton`: Whether to hide the close button
     
     [See more](Classes/BaseContainerConfig.md)
     
@@ -331,7 +397,11 @@ The following classes are available globally.
     
 -   `[InlineContainerConfig](#/s:9embed_sdk21InlineContainerConfigC)`
     
-    Undocumented
+    Inline container configuration. Displays SDK content inline within the host application’s UI.
+    
+    \## Properties
+    
+    -   `mode`: Container mode (always INLINE)
     
     [See more](Classes/InlineContainerConfig.md)
     
@@ -345,7 +415,11 @@ The following classes are available globally.
     
 -   `[ModalContainerConfig](#/s:9embed_sdk20ModalContainerConfigC)`
     
-    Undocumented
+    Modal container configuration. Displays SDK content as a modal overlay over the host application.
+    
+    \## Properties
+    
+    -   `mode`: Container mode (always MODAL)
     
     [See more](Classes/ModalContainerConfig.md)
     
@@ -359,7 +433,11 @@ The following classes are available globally.
     
 -   `[FillContainerConfig](#/s:9embed_sdk19FillContainerConfigC)`
     
-    Undocumented
+    Fill container configuration. Displays SDK content filling the entire available space. Best for full-screen or dedicated editing experiences.
+    
+    \## Properties
+    
+    -   `mode`: Container mode (always FILL)
     
     [See more](Classes/FillContainerConfig.md)
     
@@ -385,7 +463,11 @@ The following classes are available globally.
     
 -   `[Style](#/s:9embed_sdk5StyleC)`
     
-    Undocumented
+    Style configuration for export options. Defines the visual presentation style for export actions.
+    
+    \## Properties
+    
+    -   `uiType`: The UI type for the export option
     
     [See more](Classes/Style.md)
     
@@ -427,7 +509,7 @@ The following classes are available globally.
     
 -   `[BaseExportOptionOrGroup](#/s:9embed_sdk23BaseExportOptionOrGroupC)`
     
-    Undocumented
+    Base class for export options and option groups.
     
     [See more](Classes/BaseExportOptionOrGroup.md)
     
@@ -441,7 +523,13 @@ The following classes are available globally.
     
 -   `[BaseExportOption](#/s:9embed_sdk16BaseExportOptionC)`
     
-    Undocumented
+    Base export option configuration.
+    
+    \## Properties
+    
+    -   `id`: Unique identifier for this export option
+    -   `style`: Visual style configuration
+    -   `action`: The export action to perform
     
     [See more](Classes/BaseExportOption.md)
     
@@ -455,7 +543,11 @@ The following classes are available globally.
     
 -   `[PublishExportOption](#/s:9embed_sdk19PublishExportOptionC)`
     
-    Undocumented
+    Publish export option configuration. Defines a publish/export button that sends content back to the host application.
+    
+    \## Properties
+    
+    -   `label`: Display label for the button
     
     [See more](Classes/PublishExportOption.md)
     
@@ -469,7 +561,11 @@ The following classes are available globally.
     
 -   `[DownloadExportOption](#/s:9embed_sdk20DownloadExportOptionC)`
     
-    Undocumented
+    Download export option configuration. Defines a download button that allows users to save content to their device.
+    
+    \## Properties
+    
+    -   `label`: Display label for the button (optional)
     
     [See more](Classes/DownloadExportOption.md)
     
@@ -497,7 +593,11 @@ The following classes are available globally.
     
 -   `[ContinueEditingDropdownOption](#/s:9embed_sdk29ContinueEditingDropdownOptionC)`
     
-    Undocumented
+    Continue editing dropdown option configuration.
+    
+    \## Properties
+    
+    -   `label`: Display label for the option
     
     [See more](Classes/ContinueEditingDropdownOption.md)
     
@@ -525,7 +625,14 @@ The following classes are available globally.
     
 -   `[ContinueEditingGroup](#/s:9embed_sdk20ContinueEditingGroupC)`
     
-    Undocumented
+    Continue editing group configuration.
+    
+    \## Properties
+    
+    -   `style`: Button style for the group
+    -   `type`: Export group type (always CONTINUE\_EDITING)
+    -   `label`: Display label for the button
+    -   `options`: Array of continue editing options
     
     [See more](Classes/ContinueEditingGroup.md)
     
@@ -541,7 +648,13 @@ The following classes are available globally.
     
     Host application information for SDK initialization.
     
-    @property clientId Host Client ID from Developer Console (3rd party) or IMSS portal (1st party) @property appName Host Application Name @property appVersion Host Application version for analytics and debugging @property platformCategory Platform type (defaults to MOBILE) @property isFirstPartyHost Whether this is a first-party Adobe application
+    \## Properties
+    
+    -   `clientId`: Host Client ID from Developer Console (3rd party) or IMSS portal (1st party)
+    -   `appName`: Host Application Name
+    -   `appVersion`: Host Application version for analytics and debugging
+    -   `platformCategory`: Platform type (defaults to MOBILE)
+    -   `isFirstPartyHost`: Whether this is a first-party Adobe application
     
     [See more](Classes/HostInfoSpecifiedBase.md)
     
@@ -610,6 +723,13 @@ The following classes are available globally.
     NOTICE: All information contained herein is, and remains the property of Adobe and its suppliers, if any. The intellectual and technical concepts contained herein are proprietary to Adobe and its suppliers and are protected by all applicable intellectual property laws, including trade secret and copyright laws. Dissemination of this information or reproduction of this material is strictly forbidden unless prior written permission is obtained from Adobe.
     
     * * *
+    
+    Document configuration for Edit Image workflow.
+    
+    \## Properties
+    
+    -   `asset`: Image asset to edit
+    -   `intent`: Optional editing intent to launch directly into a specific editing tool
     
     [See more](Classes/EditImageDocConfig.md)
     

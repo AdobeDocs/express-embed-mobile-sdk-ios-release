@@ -4,11 +4,11 @@
 public enum SpectrumTheme : String, Codable
 ```
 
-Undocumented
+Spectrum design system theme options.
 
 -   `[SPECTRUM](#/s:9embed_sdk13SpectrumThemeO8SPECTRUMyA2CmF)`
     
-    Undocumented
+    Adobe Spectrum design system
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[EXPRESS](#/s:9embed_sdk13SpectrumThemeO7EXPRESSyA2CmF)`
     
-    Undocumented
+    Adobe Express design system
     
     #### Declaration
     

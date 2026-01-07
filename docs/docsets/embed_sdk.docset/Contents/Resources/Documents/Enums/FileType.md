@@ -4,11 +4,11 @@
 public enum FileType : Codable, Equatable
 ```
 
-Undocumented
+File type for assets. Represents the MIME type and format of a file.
 
 -   `[IMAGE_FILE_TYPE(_:)](#/s:9embed_sdk8FileTypeO15IMAGE_FILE_TYPEyAcA05ImagecD0OcACmF)`
     
-    Undocumented
+    Image file type
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[VIDEO_FILE_TYPE(_:)](#/s:9embed_sdk8FileTypeO15VIDEO_FILE_TYPEyAcA05VideocD0OcACmF)`
     
-    Undocumented
+    Video file type
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[PDF_FILE_TYPE(_:)](#/s:9embed_sdk8FileTypeO13PDF_FILE_TYPEyAcA03PdfcD0OcACmF)`
     
-    Undocumented
+    PDF file type
     
     #### Declaration
     

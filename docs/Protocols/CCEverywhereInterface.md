@@ -34,8 +34,6 @@ Main interface providing access to Adobe Express Embed SDK functionality. Entry 
     
     Closes the current active workflow and cleans up resources.
     
-    @return true if workflow was successfully closed, false otherwise
-    
     #### Declaration
     
     Swift
@@ -43,6 +41,10 @@ Main interface providing access to Adobe Express Embed SDK functionality. Entry 
     ```
     func close() -> Bool
     ```
+    
+    #### Return Value
+    
+    true if workflow was successfully closed, false otherwise
     
 -   `[activeWorkflow()](#/s:9embed_sdk21CCEverywhereInterfaceP14activeWorkflowAA12ActionIntentCSgyF)`
     

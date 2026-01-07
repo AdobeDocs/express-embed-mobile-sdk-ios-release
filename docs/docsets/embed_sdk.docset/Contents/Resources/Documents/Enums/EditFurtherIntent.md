@@ -4,11 +4,11 @@
 public enum EditFurtherIntent : String, Codable
 ```
 
-Undocumented
+Editing intents for continue editing actions. Specifies which editing tool or capability to launch when continuing editing.
 
 -   `[ADD_TEXT](#/s:9embed_sdk17EditFurtherIntentO8ADD_TEXTyA2CmF)`
     
-    Undocumented
+    Add text to the image
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[ADD_ICONS_AND_SHAPES](#/s:9embed_sdk17EditFurtherIntentO20ADD_ICONS_AND_SHAPESyA2CmF)`
     
-    Undocumented
+    Add icons and shapes
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[ADD_IMAGES](#/s:9embed_sdk17EditFurtherIntentO10ADD_IMAGESyA2CmF)`
     
-    Undocumented
+    Add images to the composition
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Undocumented
     
 -   `[ADD_EFFECTS](#/s:9embed_sdk17EditFurtherIntentO11ADD_EFFECTSyA2CmF)`
     
-    Undocumented
+    Add visual effects
     
     #### Declaration
     
@@ -56,7 +56,7 @@ Undocumented
     
 -   `[REMOVE_BACKGROUND](#/s:9embed_sdk17EditFurtherIntentO17REMOVE_BACKGROUNDyA2CmF)`
     
-    Undocumented
+    Remove background from image
     
     #### Declaration
     
@@ -68,7 +68,7 @@ Undocumented
     
 -   `[RESIZE_IMAGE](#/s:9embed_sdk17EditFurtherIntentO12RESIZE_IMAGEyA2CmF)`
     
-    Undocumented
+    Resize the image
     
     #### Declaration
     
@@ -80,7 +80,7 @@ Undocumented
     
 -   `[CROP_IMAGE](#/s:9embed_sdk17EditFurtherIntentO10CROP_IMAGEyA2CmF)`
     
-    Undocumented
+    Crop the image
     
     #### Declaration
     
@@ -92,7 +92,7 @@ Undocumented
     
 -   `[APPLY_ADJUSTMENT](#/s:9embed_sdk17EditFurtherIntentO16APPLY_ADJUSTMENTyA2CmF)`
     
-    Undocumented
+    Apply color/brightness adjustments
     
     #### Declaration
     
@@ -104,7 +104,7 @@ Undocumented
     
 -   `[GEN_FILL](#/s:9embed_sdk17EditFurtherIntentO8GEN_FILLyA2CmF)`
     
-    Undocumented
+    Generative fill (AI-powered object insertion)
     
     #### Declaration
     
@@ -116,7 +116,7 @@ Undocumented
     
 -   `[REMOVE_OBJECT](#/s:9embed_sdk17EditFurtherIntentO13REMOVE_OBJECTyA2CmF)`
     
-    Undocumented
+    Remove objects from image
     
     #### Declaration
     
@@ -128,7 +128,7 @@ Undocumented
     
 -   `[INSERT_OBJECT](#/s:9embed_sdk17EditFurtherIntentO13INSERT_OBJECTyA2CmF)`
     
-    Undocumented
+    Insert objects into image
     
     #### Declaration
     
@@ -140,7 +140,7 @@ Undocumented
     
 -   `[NO_INTENT](#/s:9embed_sdk17EditFurtherIntentO9NO_INTENTyA2CmF)`
     
-    Undocumented
+    No specific intent (general editing)
     
     #### Declaration
     

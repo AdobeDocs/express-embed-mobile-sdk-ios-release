@@ -4,7 +4,13 @@
 public struct PublishParams : Codable
 ```
 
-Undocumented
+Parameters for publish/export callbacks. Contains the exported assets and metadata when content is published from the SDK.
+
+\## Properties
+
+-   `asset`: Array of output assets (images, videos, PDFs)
+-   `exportButtonId`: ID of the export button that was clicked
+-   `documentId`: Optional document ID for the created/edited content
 
 -   `[asset](#/s:9embed_sdk13PublishParamsV5assetSayAA11OutputAssetVGvp)`
     

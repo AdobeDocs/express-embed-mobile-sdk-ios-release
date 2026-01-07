@@ -4,7 +4,7 @@
 public protocol Size : Decodable, Encodable
 ```
 
-Undocumented
+Protocol for size dimensions.
 
 -   `[width](#/s:9embed_sdk4SizeP5widthSfvp)`
     

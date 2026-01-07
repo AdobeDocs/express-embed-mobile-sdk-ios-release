@@ -6,7 +6,10 @@ public class AuthOption : Codable
 
 Authentication configuration specifying mode and related settings.
 
-@property mode Authentication mode identifier @property config Authentication configuration
+\## Properties
+
+-   `mode`: Authentication mode identifier
+-   `config`: Authentication configuration
 
 -   `[init(mode:config:)](#/s:9embed_sdk10AuthOptionC4mode6configAcA0C4ModeO_AA0C6ConfigCSgtcfc)`
     

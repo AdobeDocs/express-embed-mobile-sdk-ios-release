@@ -4,11 +4,11 @@
 public protocol Callbacks
 ```
 
-Undocumented
+Callback protocol for SDK workflow lifecycle events.
 
 -   `[onLoadStart()](#/s:9embed_sdk9CallbacksP11onLoadStartyyF)`
     
-    Undocumented
+    Called when the workflow starts loading.
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[onLoad()](#/s:9embed_sdk9CallbacksP6onLoadyyF)`
     
-    Undocumented
+    Called when the workflow has finished loading and is ready.
     
     #### Declaration
     
@@ -32,7 +32,8 @@ Undocumented
     
 -   `[onCancel(reason:)](#/s:9embed_sdk9CallbacksP8onCancel6reasonyAA0E6ReasonOSg_tF)`
     
-    Undocumented
+    -   Called when the user cancels the workflow.
+        
     
     #### Declaration
     
@@ -44,7 +45,7 @@ Undocumented
     
 -   `[onPublishStart()](#/s:9embed_sdk9CallbacksP14onPublishStartyyF)`
     
-    Undocumented
+    Called when the user initiates a publish/export action.
     
     #### Declaration
     
@@ -56,7 +57,8 @@ Undocumented
     
 -   `[onPublish(intent:publishParams:)](#/s:9embed_sdk9CallbacksP9onPublish6intent13publishParamsyAA12ActionIntentC_AA0eH0VtF)`
     
-    Undocumented
+    -   Called when content is ready to be published/exported to the host.
+        
     
     #### Declaration
     
@@ -68,7 +70,8 @@ Undocumented
     
 -   `[onError(error:)](#/s:9embed_sdk9CallbacksP7onError5erroryAA012CCEverywhereE0C_tF)`
     
-    Undocumented
+    -   Called when an error occurs in the workflow.
+        
     
     #### Declaration
     
@@ -80,8 +83,6 @@ Undocumented
     
 -   `[onEvent(message:)](#/s:9embed_sdk9CallbacksP7onEvent7messageyAA04HostE4Data_p_tF)`
     
-    Undocumented
-    
     #### Declaration
     
     Swift
@@ -92,7 +93,8 @@ Undocumented
     
 -   `[onIntentChange(oldIntent:newIntent:)](#/s:9embed_sdk9CallbacksP14onIntentChange03oldE003newE0AA0eF6ConfigVSgAA06ActionE0C_AKtF)`
     
-    Undocumented
+    -   Called when the user changes between different workflow modes.
+        
     
     #### Declaration
     
@@ -101,3 +103,7 @@ Undocumented
     ```
     func onIntentChange(oldIntent: ActionIntent, newIntent: ActionIntent) -> IntentChangeConfig?
     ```
+    
+    #### Return Value
+    
+    Optional configuration changes to apply (optional)

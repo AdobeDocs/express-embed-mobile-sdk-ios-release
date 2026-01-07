@@ -10,7 +10,11 @@ extension Version: CCEverywhereTypesValidationProvider
 
 Semantic version number for host application versioning.
 
-@property major Major version number (required) @property minor Minor version number (required) @property patch Patch version number (optional)
+\## Properties
+
+-   `major`: Major version number (required)
+-   `minor`: Minor version number (required)
+-   `patch`: Patch version number (optional)
 
 -   `[major](#/s:9embed_sdk7VersionV5majorSivp)`
     

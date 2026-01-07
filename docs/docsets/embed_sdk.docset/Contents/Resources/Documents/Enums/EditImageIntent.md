@@ -4,11 +4,11 @@
 public enum EditImageIntent : String, Codable, CaseIterable
 ```
 
-Undocumented
+Editing intents specifically for Edit Image workflow.
 
 -   `[REMOVE_BACKGROUND](#/s:9embed_sdk15EditImageIntentO17REMOVE_BACKGROUNDyA2CmF)`
     
-    Undocumented
+    Remove background from image
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[CROP_IMAGE](#/s:9embed_sdk15EditImageIntentO10CROP_IMAGEyA2CmF)`
     
-    Undocumented
+    Crop the image
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[APPLY_ADJUSTMENT](#/s:9embed_sdk15EditImageIntentO16APPLY_ADJUSTMENTyA2CmF)`
     
-    Undocumented
+    Apply color/brightness adjustments
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Undocumented
     
 -   `[REMOVE_OBJECT](#/s:9embed_sdk15EditImageIntentO13REMOVE_OBJECTyA2CmF)`
     
-    Undocumented
+    Remove objects from image
     
     #### Declaration
     
@@ -56,7 +56,7 @@ Undocumented
     
 -   `[INSERT_OBJECT](#/s:9embed_sdk15EditImageIntentO13INSERT_OBJECTyA2CmF)`
     
-    Undocumented
+    Insert objects into image
     
     #### Declaration
     
@@ -68,7 +68,7 @@ Undocumented
     
 -   `[NO_INTENT](#/s:9embed_sdk15EditImageIntentO9NO_INTENTyA2CmF)`
     
-    Undocumented
+    No specific intent (general editing)
     
     #### Declaration
     

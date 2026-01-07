@@ -4,11 +4,11 @@
 public enum ExportContext : String, Codable
 ```
 
-Undocumented
+Context for export actions.
 
 -   `[DEFAULT](#/s:9embed_sdk13ExportContextO7DEFAULTyA2CmF)`
     
-    Undocumented
+    Continue in default/current context
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[NEW](#/s:9embed_sdk13ExportContextO3NEWyA2CmF)`
     
-    Undocumented
+    Start in a new context
     
     #### Declaration
     

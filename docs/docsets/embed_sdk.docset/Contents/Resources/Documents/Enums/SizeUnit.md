@@ -4,11 +4,11 @@
 public enum SizeUnit : String, Codable
 ```
 
-Undocumented
+Units of measurement for size dimensions.
 
 -   `[PIXELS](#/s:9embed_sdk8SizeUnitO6PIXELSyA2CmF)`
     
-    Undocumented
+    Pixels
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[MILLIMETERS](#/s:9embed_sdk8SizeUnitO11MILLIMETERSyA2CmF)`
     
-    Undocumented
+    Millimeters
     
     #### Declaration
     
@@ -32,7 +32,7 @@ Undocumented
     
 -   `[INCHES](#/s:9embed_sdk8SizeUnitO6INCHESyA2CmF)`
     
-    Undocumented
+    Inches
     
     #### Declaration
     
@@ -44,7 +44,7 @@ Undocumented
     
 -   `[CENTIMETERS](#/s:9embed_sdk8SizeUnitO11CENTIMETERSyA2CmF)`
     
-    Undocumented
+    Centimeters
     
     #### Declaration
     

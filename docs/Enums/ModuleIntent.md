@@ -4,11 +4,11 @@
 public enum ModuleIntent : String, ActionIntentTypes
 ```
 
-Undocumented
+Module workflow intents. Identifies comprehensive editing workflows available in the SDK.
 
 -   `[EDIT_IMAGE_V2](#/s:9embed_sdk12ModuleIntentO13EDIT_IMAGE_V2yA2CmF)`
     
-    Undocumented
+    Edit Image workflow (version 2)
     
     #### Declaration
     
@@ -20,7 +20,7 @@ Undocumented
     
 -   `[CREATE_IMAGE_FROM_TEXT](#/s:9embed_sdk12ModuleIntentO22CREATE_IMAGE_FROM_TEXTyA2CmF)`
     
-    Undocumented
+    Generate Image from Text workflow
     
     #### Declaration
     
