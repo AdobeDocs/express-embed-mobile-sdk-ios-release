@@ -56,7 +56,7 @@ Updating to a newer release is as simple as updating the package dependency in X
 
 ## API Documentation
 
-For detailed information about available classes, methods, callbacks, and configuration options, please refer to the 👉 [**API Reference**](./docs/index.md).
+For detailed information about available classes, methods, callbacks, and configuration options, please refer to the 👉 [**API Reference**](https://adobedocs.github.io/express-embed-mobile-sdk-ios-release/).
 
 ## Troubleshooting
 
