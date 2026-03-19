@@ -6,7 +6,7 @@ Adobe
 
 ## Version Information
 
-**SDK Version:** 1.0.36
+**SDK Version:** 1.0.35
 
 ## Documentation Index
 
