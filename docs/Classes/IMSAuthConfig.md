@@ -18,9 +18,7 @@ Undocumented
     public init(accessToken: String, userId: String? = nil, forceJumpCheck: Bool? = nil)
     ```
     
--   `[encode(to:)](#/s:9embed_sdk13IMSAuthConfigC6encode2toys7Encoder_p_tKF)`
-    
-    Undocumented
+-   `[encode(to:)](#/s:SE6encode2toys7Encoder_p_tKF)`
     
     #### Declaration
     

@@ -1,7 +1,7 @@
 # ActionIntent
 
 ```
-public class ActionIntent : ActionIntentTypes
+public class ActionIntent : ActionIntentTypes, Hashable
 ```
 
 Action intent identifier.
@@ -78,4 +78,24 @@ Action intent identifier.
     
     ```
     public static func getActionIntent(str: String) -> ActionIntent?
+    ```
+    
+-   `[==(_:_:)](#/s:SQ2eeoiySbx_xtFZ)`
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public static func == (lhs: ActionIntent, rhs: ActionIntent) -> Bool
+    ```
+    
+-   `[hash(into:)](#/s:SH4hash4intoys6HasherVz_tF)`
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public func hash(into hasher: inout Hasher)
     ```

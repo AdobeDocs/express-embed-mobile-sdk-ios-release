@@ -30,22 +30,6 @@ Main interface providing access to Adobe Express Embed SDK functionality. Entry 
     var quickAction: QuickActionWorkflowInterface? { get }
     ```
     
--   `[close()](#/s:9embed_sdk21CCEverywhereInterfaceP5closeSbyF)`
-    
-    Closes the current active workflow and cleans up resources.
-    
-    #### Declaration
-    
-    Swift
-    
-    ```
-    func close() -> Bool
-    ```
-    
-    #### Return Value
-    
-    true if workflow was successfully closed, false otherwise
-    
 -   `[activeWorkflow()](#/s:9embed_sdk21CCEverywhereInterfaceP14activeWorkflowAA12ActionIntentCSgyF)`
     
     Undocumented

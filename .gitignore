@@ -1,3 +1,5 @@
 .swiftpm
 express-embed-mobile-sdk-release/
 .DS_Store
+
+.cursor/

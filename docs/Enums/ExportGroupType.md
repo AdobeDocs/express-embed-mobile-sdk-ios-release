@@ -29,3 +29,15 @@ Undocumented
     ```
     case CONTINUE_EDITING = "continue-editing"
     ```
+    
+-   `[PUBLISH_BUTTON_GROUP](#/s:9embed_sdk15ExportGroupTypeO20PUBLISH_BUTTON_GROUPyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case PUBLISH_BUTTON_GROUP = "publish-button-group"
+    ```

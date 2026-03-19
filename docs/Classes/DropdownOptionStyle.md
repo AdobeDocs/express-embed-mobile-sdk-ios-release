@@ -18,9 +18,7 @@ Undocumented
     public required init(from decoder: any Decoder) throws
     ```
     
--   `[encode(to:)](#/s:9embed_sdk19DropdownOptionStyleC6encode2toys7Encoder_p_tKF)`
-    
-    Undocumented
+-   `[encode(to:)](#/s:SE6encode2toys7Encoder_p_tKF)`
     
     #### Declaration
     

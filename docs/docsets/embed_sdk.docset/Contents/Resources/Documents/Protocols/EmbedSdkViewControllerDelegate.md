@@ -101,3 +101,15 @@ Undocumented
     ```
     func didIntentChange(_ viewController: EmbedSdkViewController, oldIntent: ActionIntent, newIntent: ActionIntent) -> IntentChangeConfig?
     ```
+    
+-   `[didSessionFinished(_:intent:)](#/s:9embed_sdk30EmbedSdkViewControllerDelegateP18didSessionFinished_6intentyAA0cdeF0C_AA12ActionIntentCSgtF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    func didSessionFinished(_ viewController: EmbedSdkViewController, intent: embed_sdk.ActionIntent?)
+    ```

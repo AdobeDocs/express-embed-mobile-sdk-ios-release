@@ -42,9 +42,24 @@ Undocumented
     public var treatment: ExportButtonTreatment?
     ```
     
--   `[encode(to:)](#/s:9embed_sdk15BaseButtonStyleC6encode2toys7Encoder_p_tKF)`
+-   `[init(icon:variant:treatment:uiType:)](#/s:9embed_sdk15BaseButtonStyleC4icon7variant9treatment6uiTypeACSSSg_AA06ExportD7VariantOSgAA0kD9TreatmentOSgAA0K8OptionUIOtcfc)`
     
     Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public init(
+        icon: String? = nil,
+        variant: ExportButtonVariant? = nil,
+        treatment: ExportButtonTreatment? = nil,
+        uiType: ExportOptionUI = .BUTTON
+    )
+    ```
+    
+-   `[encode(to:)](#/s:SE6encode2toys7Encoder_p_tKF)`
     
     #### Declaration
     

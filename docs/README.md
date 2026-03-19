@@ -4,7 +4,7 @@ This directory contains the Markdown version of the iOS SDK documentation, conve
 
 **Source:** `iOS/sdk/build/docs/gfm-3p/`  
 **Conversion tool:** turndown + turndown-plugin-gfm  
-**Generated:** 2026-01-07T14:22:43.766Z
+**Generated:** 2026-03-19T13:21:51.110Z
 
 ## Files
 

@@ -6,7 +6,7 @@ Adobe
 
 ## Version Information
 
-**SDK Version:** 1.0.6
+**SDK Version:** 1.0.36
 
 ## Documentation Index
 
@@ -25,6 +25,7 @@ Adobe
     -   [BaseExportOptionOrGroup](Classes/BaseExportOptionOrGroup.md)
     -   [BlobAsset](Classes/BlobAsset.md)
     -   [CCEverywhereError](Classes/CCEverywhereError.md)
+    -   [CallbackExportOption](Classes/CallbackExportOption.md)
     -   [CallbacksHelper](Classes/CallbacksHelper.md)
     -   [ConfigParamsBase](Classes/ConfigParamsBase.md)
     -   [ContinueEditingDropdownOption](Classes/ContinueEditingDropdownOption.md)
@@ -36,7 +37,9 @@ Adobe
     -   [DropdownOptionStyle](Classes/DropdownOptionStyle.md)
     -   [EditFurtherExportOption](Classes/EditFurtherExportOption.md)
     -   [EditImageDocConfig](Classes/EditImageDocConfig.md)
+    -   [EditImageEmbedSDKViewController](Classes/EditImageEmbedSDKViewController.md)
     -   [EmbedSdkViewController](Classes/EmbedSdkViewController.md)
+    -   [ExportOptionGroup](Classes/ExportOptionGroup.md)
     -   [ExpressEmbedSdk](Classes/ExpressEmbedSdk.md)
     -   [FillContainerConfig](Classes/FillContainerConfig.md)
     -   [HostInfo](Classes.md#/s:9embed_sdk8HostInfoC)
@@ -47,9 +50,11 @@ Adobe
     -   [ImsJumpAuthOption](Classes/ImsJumpAuthOption.md)
     -   [InlineContainerConfig](Classes/InlineContainerConfig.md)
     -   [InlineOrModalContainerConfig](Classes/InlineOrModalContainerConfig.md)
+    -   [LocalizationManager](Classes/LocalizationManager.md)
     -   [ModalContainerConfig](Classes/ModalContainerConfig.md)
     -   [PreSignedInAuthConfig](Classes/PreSignedInAuthConfig.md)
     -   [PreSignedInAuthOption](Classes/PreSignedInAuthOption.md)
+    -   [PublishButtonGroup](Classes/PublishButtonGroup.md)
     -   [PublishExportOption](Classes/PublishExportOption.md)
     -   [QuickActionDocConfigTypes](Classes/QuickActionDocConfigTypes.md)
     -   [Style](Classes/Style.md)
@@ -62,6 +67,7 @@ Adobe
     -   [AssetDataType](Enums/AssetDataType.md)
     -   [AssetType](Enums/AssetType.md)
     -   [AuthMode](Enums/AuthMode.md)
+    -   [CallbackTarget](Enums/CallbackTarget.md)
     -   [ColorTheme](Enums/ColorTheme.md)
     -   [DataTypeMap](Enums/DataTypeMap.md)
     -   [DownloadTarget](Enums/DownloadTarget.md)
@@ -78,6 +84,7 @@ Adobe
     -   [ExportOptionUI](Enums/ExportOptionUI.md)
     -   [FastModeState](Enums/FastModeState.md)
     -   [FileType](Enums/FileType.md)
+    -   [HostAppTrigger](Enums/HostAppTrigger.md)
     -   [HostId](Enums/HostId.md)
     -   [HostType](Enums/HostType.md)
     -   [ImageFileType](Enums/ImageFileType.md)
@@ -96,6 +103,7 @@ Adobe
     -   [TextToImageFeature](Enums/TextToImageFeature.md)
     -   [ThumbnailOption](Enums/ThumbnailOption.md)
     -   [VideoFileType](Enums/VideoFileType.md)
+    -   [WarmupMode](Enums/WarmupMode.md)
 -   [Protocols](Protocols.md)
     -   [ActionIntentTypes](Protocols/ActionIntentTypes.md)
     -   [AssetBase](Protocols/AssetBase.md)
@@ -104,6 +112,7 @@ Adobe
     -   [CCEverywhereInterface](Protocols/CCEverywhereInterface.md)
     -   [Callbacks](Protocols/Callbacks.md)
     -   [ClientAuthProvider](Protocols/ClientAuthProvider.md)
+    -   [EditImageContext](Protocols/EditImageContext.md)
     -   [EmbedSDKCallbacks](Protocols/EmbedSDKCallbacks.md)
     -   [EmbedSdkViewControllerDelegate](Protocols/EmbedSdkViewControllerDelegate.md)
     -   [ExportTarget](Protocols/ExportTarget.md)
@@ -114,8 +123,10 @@ Adobe
     -   [Size](Protocols/Size.md)
 -   [Structures](Structs.md)
     -   [AnalyticsStatus](Structs/AnalyticsStatus.md)
-    -   [BaseAnalyticsData](Structs.md#/s:9embed_sdk17BaseAnalyticsDataV)
+    -   [AssetConfig](Structs/AssetConfig.md)
+    -   [BaseAnalyticsData](Structs/BaseAnalyticsData.md)
     -   [Blob](Structs.md#/s:9embed_sdk4BlobV)
+    -   [CallbackAction](Structs/CallbackAction.md)
     -   [ClientAuthDetails](Structs/ClientAuthDetails.md)
     -   [DeviceInfo](Structs.md#/s:9embed_sdk10DeviceInfoV)
     -   [DownloadAction](Structs/DownloadAction.md)
@@ -125,6 +136,7 @@ Adobe
     -   [FastModeConfig](Structs/FastModeConfig.md)
     -   [ImageDimensions](Structs/ImageDimensions.md)
     -   [IntentChangeConfig](Structs/IntentChangeConfig.md)
+    -   [MobileToolbarOption](Structs/MobileToolbarOption.md)
     -   [OutputAsset](Structs/OutputAsset.md)
     -   [PixelSize](Structs/PixelSize.md)
     -   [PublishAction](Structs/PublishAction.md)

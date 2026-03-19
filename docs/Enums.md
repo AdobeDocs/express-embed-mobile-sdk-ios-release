@@ -58,6 +58,44 @@ The following enumerations are available globally.
     public enum ImageQuickActionIntent : String, QuickActionIntent
     ```
     
+-   `[WarmupMode](#/s:9embed_sdk10WarmupModeO)`
+    
+    Undocumented
+    
+    [See more](Enums/WarmupMode.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public enum WarmupMode : String
+    ```
+    
+-   `[HostAppTrigger](#/s:9embed_sdk14HostAppTriggerO)`
+    
+    * * *
+    
+    ADOBE CONFIDENTIAL
+    
+    * * *
+    
+    Copyright 2025 Adobe All Rights Reserved.
+    
+    NOTICE: All information contained herein is, and remains the property of Adobe and its suppliers, if any. The intellectual and technical concepts contained herein are proprietary to Adobe and its suppliers and are protected by all applicable intellectual property laws, including trade secret and copyright laws. Dissemination of this information or reproduction of this material is strictly forbidden unless prior written permission is obtained from Adobe.
+    
+    * * *
+    
+    [See more](Enums/HostAppTrigger.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public enum HostAppTrigger : String, Codable
+    ```
+    
 -   `[Scale](#/s:9embed_sdk5ScaleO)`
     
     Undocumented
@@ -326,6 +364,20 @@ The following enumerations are available globally.
     
     ```
     public enum EditFurtherTarget : String, ExportTarget, Codable
+    ```
+    
+-   `[CallbackTarget](#/s:9embed_sdk14CallbackTargetO)`
+    
+    Callback export target. Represents a callback action to the host application.
+    
+    [See more](Enums/CallbackTarget.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public enum CallbackTarget : String, ExportTarget, Codable
     ```
     
 -   `[EditFurtherIntent](#/s:9embed_sdk17EditFurtherIntentO)`

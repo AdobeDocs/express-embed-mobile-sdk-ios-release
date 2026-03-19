@@ -10,9 +10,7 @@ Fill container configuration. Displays SDK content filling the entire available 
 
 -   `mode`: Container mode (always FILL)
 
--   `[encode(to:)](#/s:9embed_sdk19FillContainerConfigC6encode2toys7Encoder_p_tKF)`
-    
-    Undocumented
+-   `[encode(to:)](#/s:SE6encode2toys7Encoder_p_tKF)`
     
     #### Declaration
     

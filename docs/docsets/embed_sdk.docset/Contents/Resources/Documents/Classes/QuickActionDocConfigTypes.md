@@ -28,9 +28,7 @@ NOTICE: All information contained herein is, and remains the property of Adobe a
     public init(asset: Asset? = nil, url: String? = nil)
     ```
     
--   `[encode(to:)](#/s:9embed_sdk25QuickActionDocConfigTypesC6encode2toys7Encoder_p_tKF)`
-    
-    Undocumented
+-   `[encode(to:)](#/s:SE6encode2toys7Encoder_p_tKF)`
     
     #### Declaration
     

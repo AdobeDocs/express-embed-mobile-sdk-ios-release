@@ -82,6 +82,20 @@ The following classes are available globally.
     public class CCEverywhereError : Error, LocalizedError
     ```
     
+-   `[LocalizationManager](#/s:9embed_sdk19LocalizationManagerC)`
+    
+    Manages localization of strings within the SDK
+    
+    [See more](Classes/LocalizationManager.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public class LocalizationManager
+    ```
+    
 -   `[AnalyticsController](#/s:9embed_sdk19AnalyticsControllerC)`
     
     Simple class for controlling Embed SDK analytics This allows host applications to enable/disable analytics as needed
@@ -111,7 +125,7 @@ The following classes are available globally.
     Swift
     
     ```
-    public class ActionIntent : ActionIntentTypes
+    public class ActionIntent : ActionIntentTypes, Hashable
     ```
     
 -   `[Asset](#/s:9embed_sdk5AssetC)`
@@ -559,6 +573,20 @@ The following classes are available globally.
     public class PublishExportOption : BaseExportOption
     ```
     
+-   `[CallbackExportOption](#/s:9embed_sdk20CallbackExportOptionC)`
+    
+    Callback export option configuration. Defines a callback button that invokes a callback in the host application.
+    
+    [See more](Classes/CallbackExportOption.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public class CallbackExportOption : BaseExportOption
+    ```
+    
 -   `[DownloadExportOption](#/s:9embed_sdk20DownloadExportOptionC)`
     
     Download export option configuration. Defines a download button that allows users to save content to their device.
@@ -623,6 +651,20 @@ The following classes are available globally.
     public class DropdownExportOption : BaseExportOption
     ```
     
+-   `[ExportOptionGroup](#/s:9embed_sdk17ExportOptionGroupC)`
+    
+    Undocumented
+    
+    [See more](Classes/ExportOptionGroup.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public class ExportOptionGroup : BaseExportOptionOrGroup, ExportGroup
+    ```
+    
 -   `[ContinueEditingGroup](#/s:9embed_sdk20ContinueEditingGroupC)`
     
     Continue editing group configuration.
@@ -642,6 +684,27 @@ The following classes are available globally.
     
     ```
     public class ContinueEditingGroup : BaseExportOptionOrGroup, ExportGroup
+    ```
+    
+-   `[PublishButtonGroup](#/s:9embed_sdk18PublishButtonGroupC)`
+    
+    Publish button group configuration.
+    
+    \## Parameters
+    
+    -   `style`: Button style for the group
+    -   `type`: Export group type (always PUBLISH\_BUTTON\_GROUP)
+    -   `label`: Display label for the button (optional)
+    -   `options`: Array of publish export options (optional)
+    
+    [See more](Classes/PublishButtonGroup.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public class PublishButtonGroup : BaseExportOptionOrGroup, ExportGroup
     ```
     
 -   `[HostInfoSpecifiedBase](#/s:9embed_sdk21HostInfoSpecifiedBaseC)`
@@ -805,4 +868,19 @@ The following classes are available globally.
     
     ```
     public class QuickActionDocConfigTypes : BaseDocConfig
+    ```
+    
+-   `[EditImageEmbedSDKViewController](#/c:@M@embed_sdk@objc\(cs\)EditImageEmbedSDKViewController)`
+    
+    A specialized view controller for the Edit Image workflow that extends EmbedSdkViewController and provides access to Edit Image-specific context APIs.
+    
+    [See more](Classes/EditImageEmbedSDKViewController.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    @MainActor
+    public class EditImageEmbedSDKViewController : EmbedSdkViewController
     ```

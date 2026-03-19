@@ -30,6 +30,18 @@ Undocumented
     case ACROBAT
     ```
     
+-   `[ACROBAT_READER](#/s:9embed_sdk6HostIdO14ACROBAT_READERyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case ACROBAT_READER
+    ```
+    
 -   `[TEST_APP](#/s:9embed_sdk6HostIdO8TEST_APPyA2CmF)`
     
     Undocumented

@@ -43,9 +43,7 @@ Continue editing dropdown option configuration.
     
     <table class="graybox"><tbody><tr><td><code><em>id</em></code></td><td><div><p>Unique identifier</p></div></td></tr><tr><td><code><em>style</em></code></td><td><div><p>Dropdown option style</p></div></td></tr><tr><td><code><em>action</em></code></td><td><div><p>Continue editing action</p></div></td></tr><tr><td><code><em>label</em></code></td><td><div><p>Display label (optional)</p></div></td></tr></tbody></table>
     
--   `[encode(to:)](#/s:9embed_sdk29ContinueEditingDropdownOptionC6encode2toys7Encoder_p_tKF)`
-    
-    Undocumented
+-   `[encode(to:)](#/s:SE6encode2toys7Encoder_p_tKF)`
     
     #### Declaration
     

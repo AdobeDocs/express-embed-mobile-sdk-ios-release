@@ -11,7 +11,7 @@ Image dimension constraints. Specifies the size and aspect ratio for image gener
 -   `size`: Pixel dimensions
 -   `aspectRatio`: Aspect ratio constraint
 
--   `[init(size:aspectRatio:)](#/s:9embed_sdk15ImageDimensionsV4size11aspectRatioAcA9PixelSizeV_AA06AspectG0Otcfc)`
+-   `[init(aspectRatio:size:)](#/s:9embed_sdk15ImageDimensionsV11aspectRatio4sizeAcA06AspectF0O_AA9PixelSizeVSgtcfc)`
     
     Creates image dimension constraints.
     
@@ -20,7 +20,7 @@ Image dimension constraints. Specifies the size and aspect ratio for image gener
     Swift
     
     ```
-    public init(size: PixelSize, aspectRatio: AspectRatio)
+    public init(aspectRatio: AspectRatio, size: PixelSize? = nil)
     ```
     
     #### Parameters
