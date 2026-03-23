@@ -293,3 +293,51 @@ Enum ErrorCodes defines a set of static constants that represent different error
     ```
     case UNSUPPORTED_API
     ```
+    
+-   `[PRELOAD_OPTIMIZATION_UNSUPPORTED](#/s:9embed_sdk10ErrorCodesO32PRELOAD_OPTIMIZATION_UNSUPPORTEDyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case PRELOAD_OPTIMIZATION_UNSUPPORTED
+    ```
+    
+-   `[INVALID_CLIENT_ID](#/s:9embed_sdk10ErrorCodesO17INVALID_CLIENT_IDyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case INVALID_CLIENT_ID
+    ```
+    
+-   `[IMS_JUMP_CONSUMPTION_ERROR](#/s:9embed_sdk10ErrorCodesO26IMS_JUMP_CONSUMPTION_ERRORyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case IMS_JUMP_CONSUMPTION_ERROR
+    ```
+    
+-   `[TARGET_APP_ERROR](#/s:9embed_sdk10ErrorCodesO16TARGET_APP_ERRORyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case TARGET_APP_ERROR
+    ```

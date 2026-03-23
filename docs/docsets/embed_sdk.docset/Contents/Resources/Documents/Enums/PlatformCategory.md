@@ -43,7 +43,7 @@ Platform type
     Swift
     
     ```
-    case MOBILE
+    case MOBILE = "mobile"
     ```
     
 -   `[INVALID_PLATFORM](#/s:9embed_sdk16PlatformCategoryO16INVALID_PLATFORMyA2CmF)`

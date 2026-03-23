@@ -30,7 +30,7 @@ Undocumented
     public var analyticsData: BaseAnalyticsData?
     ```
     
--   `[init(editorTitle:metaData:createTempDoc:analyticsData:templateEditorSource:textOverrides:)](#/s:9embed_sdk34TemplateEditorQuickActionAppConfigV11editorTitle8metaData13createTempDoc09analyticsL008templateD6Source13textOverridesACSSSg_SDyS2SGSgSbSgAA013BaseAnalyticsL0VSgAA0cdR0CSDyAA12TextOverrideOSSGSgtcfc)`
+-   `[init(editorTitle:metaData:createTempDoc:analyticsData:templateEditorSource:useStaticShimmer:textOverrides:mobileToolbarOptions:)](#/s:9embed_sdk34TemplateEditorQuickActionAppConfigV11editorTitle8metaData13createTempDoc09analyticsL008templateD6Source16useStaticShimmer13textOverrides20mobileToolbarOptionsACSSSg_SDyS2SGSgSbSgAA013BaseAnalyticsL0VSgAA0cdR0CAOSDyAA12TextOverrideOSSGSgSayAA06MobileY6OptionVGSgtcfc)`
     
     Undocumented
     
@@ -45,6 +45,8 @@ Undocumented
         createTempDoc: Bool? = nil,
         analyticsData: BaseAnalyticsData? = nil,
         templateEditorSource: TemplateEditorSource,
-        textOverrides: [TextOverride: String]? = nil
+        useStaticShimmer: Bool? = false,
+        textOverrides: [TextOverride: String]? = nil,
+        mobileToolbarOptions: [MobileToolbarOption]? = nil
     )
     ```

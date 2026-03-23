@@ -34,9 +34,7 @@ Document configuration for Edit Image workflow.
     public init(asset: Asset? = nil, intent: EditImageIntent? = nil)
     ```
     
--   `[encode(to:)](#/s:9embed_sdk18EditImageDocConfigC6encode2toys7Encoder_p_tKF)`
-    
-    Undocumented
+-   `[encode(to:)](#/s:SE6encode2toys7Encoder_p_tKF)`
     
     #### Declaration
     

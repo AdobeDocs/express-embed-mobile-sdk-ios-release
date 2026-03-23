@@ -182,6 +182,20 @@ The following protocols are available globally.
     public protocol HostInfoComputed
     ```
     
+-   `[EditImageContext](#/s:9embed_sdk16EditImageContextP)`
+    
+    Protocol for Edit Image workflow context operations. This context provides access to workflow-specific functionality for the Edit Image workflow, allowing clients to interact with the active editing session.
+    
+    [See more](Protocols/EditImageContext.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public protocol EditImageContext
+    ```
+    
 -   `[ModuleWorkflowInterface](#/s:9embed_sdk23ModuleWorkflowInterfaceP)`
     
     Module workflow interface providing access to comprehensive creative editing workflows.

@@ -6,6 +6,18 @@ public class CallbacksHelper : Codable
 
 Undocumented
 
+-   `[init(callbackObject:)](#/s:9embed_sdk15CallbacksHelperC14callbackObjectAcA0C0_p_tcfc)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public init(callbackObject: Callbacks)
+    ```
+    
 -   `[init(from:)](#/s:Se4fromxs7Decoder_p_tKcfc)`
     
     #### Declaration

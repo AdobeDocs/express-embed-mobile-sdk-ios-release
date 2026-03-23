@@ -6,6 +6,34 @@ public protocol Callbacks
 
 Callback protocol for SDK workflow lifecycle events.
 
+-   `[onLoadStartBegin()](#/s:9embed_sdk9CallbacksP16onLoadStartBeginyyF)` Default implementation
+    
+    Called before onLoadStart - when load process begins.
+    
+    #### Default Implementation
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    func onLoadStartBegin()
+    ```
+    
+-   `[onLoadInitBegin()](#/s:9embed_sdk9CallbacksP15onLoadInitBeginyyF)` Default implementation
+    
+    Called before onLoad - when initialization begins.
+    
+    #### Default Implementation
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    func onLoadInitBegin()
+    ```
+    
 -   `[onLoadStart()](#/s:9embed_sdk9CallbacksP11onLoadStartyyF)`
     
     Called when the workflow starts loading.
@@ -107,3 +135,15 @@ Callback protocol for SDK workflow lifecycle events.
     #### Return Value
     
     Optional configuration changes to apply (optional)
+    
+-   `[onSessionFinished(intent:)](#/s:9embed_sdk9CallbacksP17onSessionFinished6intentyAA12ActionIntentCSg_tF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    func onSessionFinished(intent: ActionIntent?)
+    ```

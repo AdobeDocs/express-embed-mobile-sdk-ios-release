@@ -39,6 +39,8 @@ The following structures are available globally.
     
     Undocumented
     
+    [See more](Structs/BaseAnalyticsData.md)
+    
     #### Declaration
     
     Swift
@@ -166,6 +168,7 @@ The following structures are available globally.
     -   `publishFileType`: Desired file type for the published asset
     -   `closeTargetOnExport`: Whether to close the workflow after export
     -   `outputType`: Output data type (base64, URL, or blob)
+    -   `enableByDefault`: Whether this option is enabled by default
     
     [See more](Structs/PublishAction.md)
     
@@ -175,6 +178,23 @@ The following structures are available globally.
     
     ```
     public struct PublishAction : BaseActionInterface, Codable
+    ```
+    
+-   `[CallbackAction](#/s:9embed_sdk14CallbackActionV)`
+    
+    \## Properties
+    
+    -   `target`: The callback target i.e, CALLBACK
+    -   `enableByDefault`: Whether this option is enabled by default
+    
+    [See more](Structs/CallbackAction.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public struct CallbackAction : BaseActionInterface, Codable
     ```
     
 -   `[DownloadAction](#/s:9embed_sdk14DownloadActionV)`
@@ -270,6 +290,45 @@ The following structures are available globally.
     
     ```
     extension Version: CCEverywhereTypesValidationProvider
+    ```
+    
+-   `[MobileToolbarOption](#/s:9embed_sdk19MobileToolbarOptionV)`
+    
+    Configuration for mobile toolbar icon option. Defines a custom toolbar icon with identifier, label, and base64 icon data.
+    
+    \## Properties
+    
+    -   `id`: Unique identifier for the icon
+    -   `label`: Display label shown to the user
+    -   `icon`: Base64-encoded icon data
+    
+    [See more](Structs/MobileToolbarOption.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public struct MobileToolbarOption : Codable
+    ```
+    
+-   `[AssetConfig](#/s:9embed_sdk11AssetConfigV)`
+    
+    Configuration for asset retrieval operations. Controls display and processing behavior when getting assets.
+    
+    \## Properties
+    
+    -   `showProcessingDialog`: Whether to show a processing dialog while retrieving the asset
+    -   `markAssetExportedAfterEdit`: When true, marks the asset as exported after edit (sets isAssetExportedAfterEdit). Used by iOS to align getAsset behavior with publish for unsaved-changes checks.
+    
+    [See more](Structs/AssetConfig.md)
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    public struct AssetConfig : Codable
     ```
     
 -   `[EditDropdownOptionConfig](#/s:9embed_sdk24EditDropdownOptionConfigV)`

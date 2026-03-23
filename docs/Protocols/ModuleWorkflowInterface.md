@@ -34,7 +34,7 @@ Module workflow interface providing access to comprehensive creative editing wor
     
     EmbedSdkViewController instance that can be presented by the host application
     
--   `[editImage(editImageDocConfig:editImageAppConfig:exportConfig:containerConfig:)](#/s:9embed_sdk23ModuleWorkflowInterfaceP9editImage0fG9DocConfig0fg3AppI006exportI009containerI0AA22EmbedSdkViewControllerCAA04EditghI0C_AA0qgjI0VSgSayAA23BaseExportOptionOrGroupCGSgAA0r9ContainerI0CSgtKF)`
+-   `[editImage(editImageDocConfig:editImageAppConfig:exportConfig:containerConfig:)](#/s:9embed_sdk23ModuleWorkflowInterfaceP9editImage0fG9DocConfig0fg3AppI006exportI009containerI0AA04EditG22EmbedSDKViewControllerCAA0mghI0C_AA0mgjI0VSgSayAA23BaseExportOptionOrGroupCGSgAA0q9ContainerI0CSgtKF)`
     
     Opens the Edit Image workflow for comprehensive image editing.
     
@@ -52,7 +52,7 @@ Module workflow interface providing access to comprehensive creative editing wor
         editImageAppConfig: EditImageAppConfig?,
         exportConfig: ExportConfig?,
         containerConfig: ContainerConfig?
-    ) throws -> EmbedSdkViewController
+    ) throws -> EditImageEmbedSDKViewController
     ```
     
     #### Parameters
@@ -61,9 +61,9 @@ Module workflow interface providing access to comprehensive creative editing wor
     
     #### Return Value
     
-    EmbedSdkViewController instance that can be presented by the host application
+    EditImageEmbedSDKViewController containing the view controller and EditImageContext for interacting with the active editing session
     
--   `[warmup(intent:)](#/s:9embed_sdk23ModuleWorkflowInterfaceP6warmup6intentyAA0C6IntentO_tKF)`
+-   `[warmup(intent:mode:)](#/s:9embed_sdk23ModuleWorkflowInterfaceP6warmup6intent4modeyAA12ActionIntentC_AA10WarmupModeOtKF)`
     
     Pre-loads SDK resources for faster subsequent workflow launches.
     
@@ -76,9 +76,42 @@ Module workflow interface providing access to comprehensive creative editing wor
     Swift
     
     ```
-    func warmup(intent: ModuleIntent) throws
+    func warmup(
+        intent: ActionIntent,
+        mode: WarmupMode
+    ) throws
     ```
     
     #### Parameters
     
-    <table class="graybox"><tbody><tr><td><code><em>intent</em></code></td><td><div><p>The workflow intent to warm up (e.g., EDIT_IMAGE_V2, CREATE_IMAGE_FROM_TEXT)</p></div></td></tr></tbody></table>
+    <table class="graybox"><tbody><tr><td><code><em>intent</em></code></td><td><div><p>The workflow intent to warm up (e.g., EDIT_IMAGE_V2, CREATE_IMAGE_FROM_TEXT)</p></div></td></tr><tr><td><code><em>mode</em></code></td><td><div><p>WarmupMode</p></div></td></tr></tbody></table>
+    
+-   `[purgeWarmupSession(intent:)](#/s:9embed_sdk23ModuleWorkflowInterfaceP18purgeWarmupSession6intentSbAA12ActionIntentCSg_tKF)`
+    
+    Purge the background warmup session for the given intent. This closes any preload/precache WebView and ends the warmup action.
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    func purgeWarmupSession(intent: ActionIntent?) throws -> Bool
+    ```
+    
+    #### Return Value
+    
+    true if warmup session was successfully purged, false otherwise
+    
+-   `[activePreloadIntent()](#/s:9embed_sdk23ModuleWorkflowInterfaceP19activePreloadIntentShyAA06ActionH0CGSgyKF)`
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    func activePreloadIntent() throws -> Set<ActionIntent>?
+    ```
+    
+    #### Return Value
+    
+    ActionIntent for the active preload session or null if no session is active

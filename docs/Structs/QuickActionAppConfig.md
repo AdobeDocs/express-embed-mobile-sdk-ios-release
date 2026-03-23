@@ -40,7 +40,7 @@ NOTICE: All information contained herein is, and remains the property of Adobe a
     public var analyticsData: BaseAnalyticsData?
     ```
     
--   `[init(editorTitle:metaData:createTempDoc:analyticsData:colorTheme:spectrumTheme:scale:receiveTargetErrors:)](#/s:9embed_sdk20QuickActionAppConfigV11editorTitle8metaData13createTempDoc09analyticsJ010colorTheme08spectrumP05scale19receiveTargetErrorsACSSSg_SDyS2SGSgSbSgAA013BaseAnalyticsJ0VSgAA05ColorP0OSgAA08SpectrumP0OSgAA5ScaleOSgAOtcfc)`
+-   `[init(editorTitle:metaData:createTempDoc:analyticsData:colorTheme:spectrumTheme:scale:receiveTargetErrors:mobileToolbarOptions:)](#/s:9embed_sdk20QuickActionAppConfigV11editorTitle8metaData13createTempDoc09analyticsJ010colorTheme08spectrumP05scale19receiveTargetErrors20mobileToolbarOptionsACSSSg_SDyS2SGSgSbSgAA013BaseAnalyticsJ0VSgAA05ColorP0OSgAA08SpectrumP0OSgAA5ScaleOSgAPSayAA06MobileW6OptionVGSgtcfc)`
     
     Undocumented
     
@@ -57,7 +57,8 @@ NOTICE: All information contained herein is, and remains the property of Adobe a
         colorTheme: ColorTheme? = nil,
         spectrumTheme: SpectrumTheme? = nil,
         scale: Scale? = nil,
-        receiveTargetErrors: Bool? = nil
+        receiveTargetErrors: Bool? = nil,
+        mobileToolbarOptions: [MobileToolbarOption]? = nil
     )
     ```
     

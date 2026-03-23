@@ -33,7 +33,7 @@ Undocumented
     override public func viewDidLoad()
     ```
     
--   `[closeWorkflow()](#/s:9embed_sdk22EmbedSdkViewControllerC13closeWorkflowSbyF)`
+-   `[close()](#/s:9embed_sdk22EmbedSdkViewControllerC5closeSbyF)`
     
     Undocumented
     
@@ -44,5 +44,5 @@ Undocumented
     ```
     @discardableResult
     @MainActor
-    public func closeWorkflow() -> Bool
+    public func close() -> Bool
     ```

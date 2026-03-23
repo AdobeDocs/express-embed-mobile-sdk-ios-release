@@ -305,3 +305,51 @@ Human-readable error messages for SDK error codes. Provides descriptive error me
     ```
     case UNSUPPORTED_API = "Unsupported API"
     ```
+    
+-   `[PRELOAD_OPTIMIZATION_UNSUPPORTED](#/s:9embed_sdk13ErrorMessagesO32PRELOAD_OPTIMIZATION_UNSUPPORTEDyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case PRELOAD_OPTIMIZATION_UNSUPPORTED = "Preload optimization is not supported for this intent"
+    ```
+    
+-   `[INVALID_CLIENT_ID](#/s:9embed_sdk13ErrorMessagesO17INVALID_CLIENT_IDyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case INVALID_CLIENT_ID = "Invalid client id"
+    ```
+    
+-   `[IMS_JUMP_CONSUMPTION_ERROR](#/s:9embed_sdk13ErrorMessagesO26IMS_JUMP_CONSUMPTION_ERRORyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case IMS_JUMP_CONSUMPTION_ERROR = "IMS jump consumption failed"
+    ```
+    
+-   `[TARGET_APP_ERROR](#/s:9embed_sdk13ErrorMessagesO16TARGET_APP_ERRORyA2CmF)`
+    
+    Undocumented
+    
+    #### Declaration
+    
+    Swift
+    
+    ```
+    case TARGET_APP_ERROR = "Target app error"
+    ```

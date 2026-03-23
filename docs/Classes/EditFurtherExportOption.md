@@ -6,9 +6,7 @@ public class EditFurtherExportOption : BaseExportOption
 
 Undocumented
 
--   `[encode(to:)](#/s:9embed_sdk23EditFurtherExportOptionC6encode2toys7Encoder_p_tKF)`
-    
-    Undocumented
+-   `[encode(to:)](#/s:SE6encode2toys7Encoder_p_tKF)`
     
     #### Declaration
     
