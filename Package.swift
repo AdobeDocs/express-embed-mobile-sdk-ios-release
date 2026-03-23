@@ -16,8 +16,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
                     name: "embed-sdk",
-                    url: "https://github.com/AdobeDocs/express-embed-mobile-sdk-ios-release/releases/download/v1.0.6/embed-sdk.zip",
-                    checksum: "122b65deec5f38f6665e57bd6b16c34bb1c9907e660bd73e1f66ddde91602017"
+                    url: "https://github.com/AdobeDocs/express-embed-mobile-sdk-ios-release/releases/download/v1.0.35/embed-sdk.zip",
+                    checksum: "0289eac716c0e7ec682c061f6e70741988b69e842a9bd29cc148b1adcde845ca"
                 )
 
     ]
