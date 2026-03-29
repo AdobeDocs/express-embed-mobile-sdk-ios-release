@@ -74,3 +74,8 @@ Please try the following steps:
   ```
 - Restart Xcode
 - Re-integrate the SDK (e.g. version `v1.0.0`)
+
+## System Requirements
+- **iOS**: 17.0 or later  
+- **Xcode**: 15.3 or later  
+- **Swift**: 5.10 or later
