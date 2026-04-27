@@ -32,7 +32,9 @@ The following classes are available globally.
     * * *
     
     Adobe Express Embed SDK main entry point.
-    
+
+    `ExpressEmbedSdk.initialize` requires `hostInfo.appName` and `hostInfo.appVersion` to be non-`nil`; `nil` for either prevents initialization.
+
     [See more](Classes/ExpressEmbedSdk.md)
     
     #### Declaration
@@ -714,8 +716,8 @@ The following classes are available globally.
     \## Properties
     
     -   `clientId`: Host Client ID from Developer Console (3rd party) or IMSS portal (1st party)
-    -   `appName`: Host Application Name
-    -   `appVersion`: Host Application version for analytics and debugging
+    -   `appName`: Host Application Name (required non-`nil` for `ExpressEmbedSdk.initialize`; `nil` prevents initialization)
+    -   `appVersion`: Host Application version for analytics and debugging (required non-`nil` for `ExpressEmbedSdk.initialize`; `nil` prevents initialization)
     -   `platformCategory`: Platform type (defaults to MOBILE)
     -   `isFirstPartyHost`: Whether this is a first-party Adobe application
     
@@ -738,9 +740,9 @@ The following classes are available globally.
     ```
     
 -   `[HostInfo](#/s:9embed_sdk8HostInfoC)`
-    
-    Host application information required for SDK initialization.
-    
+
+    Host application information required for SDK initialization. Inherits the same requirement as `HostInfoSpecifiedBase`: for `ExpressEmbedSdk.initialize`, `appName` and `appVersion` must not be `nil`.
+
     #### Declaration
     
     Swift
@@ -762,9 +764,9 @@ The following classes are available globally.
     ```
     
 -   `[HostInfoExtended](#/s:9embed_sdk16HostInfoExtendedC)`
-    
-    A structure that includes all the required first-party host information for API initialization.
-    
+
+    A structure that includes all the required first-party host information for API initialization. When used with `ExpressEmbedSdk.initialize`, `appName` and `appVersion` must not be `nil`.
+
     [See more](Classes/HostInfoExtended.md)
     
     #### Declaration

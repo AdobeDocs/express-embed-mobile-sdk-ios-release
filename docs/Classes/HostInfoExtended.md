@@ -4,7 +4,7 @@
 public class HostInfoExtended : HostInfoSpecifiedBase, HostInfoComputed
 ```
 
-A structure that includes all the required first-party host information for API initialization.
+A structure that includes all the required first-party host information for API initialization. For `ExpressEmbedSdk.initialize`, `appName` and `appVersion` must be non-`nil` (see initializer notes below).
 
 -   `[sdkVersion](#/s:9embed_sdk16HostInfoExtendedC0B7VersionSSSgvp)`
     
@@ -68,7 +68,7 @@ A structure that includes all the required first-party host information for API 
     
 -   `[init(clientId:appName:appVersion:sdkVersion:referrer:isFirstPartyHost:type:id:)](#/s:9embed_sdk16HostInfoExtendedC8clientId7appName0H7Version0bJ08referrer012isFirstPartyC04type2idACSSSg_AlA0J0VSgA2LSbSgAA0C4TypeOSgAA0cG0OSgtcfc)`
     
-    Undocumented
+    When this instance is used with `ExpressEmbedSdk.initialize`, `appName` and `appVersion` must be non-`nil`; `nil` for either prevents SDK initialization.
     
     #### Declaration
     
@@ -89,7 +89,7 @@ A structure that includes all the required first-party host information for API 
     
 -   `[init(hostInfoComputed:hostInfoSpecifiedBase:)](#/s:9embed_sdk16HostInfoExtendedC04hostD8Computed0fD13SpecifiedBaseAcA0cdG0_p_AA0cdhI0Ctcfc)`
     
-    Undocumented
+    When the resulting instance is used with `ExpressEmbedSdk.initialize`, `hostInfoSpecifiedBase` must provide non-`nil` `appName` and `appVersion`.
     
     #### Declaration
     

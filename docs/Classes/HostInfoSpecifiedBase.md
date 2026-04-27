@@ -17,14 +17,14 @@ Host application information for SDK initialization.
 \## Properties
 
 -   `clientId`: Host Client ID from Developer Console (3rd party) or IMSS portal (1st party)
--   `appName`: Host Application Name
--   `appVersion`: Host Application version for analytics and debugging
+-   `appName`: Host Application Name (must not be `nil` when passed to `ExpressEmbedSdk.initialize`; otherwise the SDK will not initialize)
+-   `appVersion`: Host Application version for analytics and debugging (must not be `nil` when passed to `ExpressEmbedSdk.initialize`; otherwise the SDK will not initialize)
 -   `platformCategory`: Platform type (defaults to MOBILE)
 -   `isFirstPartyHost`: Whether this is a first-party Adobe application
 
 -   `[init(clientId:appName:appVersion:isFirstPartyHost:)](#/s:9embed_sdk21HostInfoSpecifiedBaseC8clientId7appName0I7Version012isFirstPartyC0ACSSSg_AhA0K0VSgSbSgtcfc)`
     
-    Undocumented
+    For use with `ExpressEmbedSdk.initialize`, supply non-`nil` `appName` and `appVersion`. If either is `nil`, initialization does not succeed.
     
     #### Declaration
     
