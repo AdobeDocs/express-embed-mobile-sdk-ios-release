@@ -46,6 +46,15 @@ To get your app ID allow-listed, follow these steps:
 4. Click **Add Package**.
 5. Choose the target(s) where you want to add the SDK and confirm.
 
+### SDK initialization (`HostInfo`)
+
+When you call `ExpressEmbedSdk.initialize(hostInfo:configParams:...)`, the `hostInfo` you pass must include real values for both **app name** and **app version**.
+
+- Do not pass `nil` for `appName` or `appVersion` on `HostInfo` (or related `HostInfoSpecifiedBase` / `HostInfoExtended` initializers used for SDK startup).
+- If either value is `nil`, **the SDK will not initialize** (initialization fails).
+
+Use your application’s display name (or bundle name) and a meaningful version, for example from `Bundle.main` (`CFBundleName` / `CFBundleShortVersionString`) mapped into `Version` as your app’s versioning scheme requires.
+
 ## Releases
 
 New versions of the SDK are published as **Git tags** in this repository.  

@@ -22,6 +22,8 @@ Adobe Express Embed SDK main entry point.
     
     Initializes the Adobe Express Embed SDK.
     
+    **Required host fields:** `hostInfo.appName` and `hostInfo.appVersion` must both be non-`nil`. Passing `nil` for either prevents initialization (the call throws and the SDK does not start).
+    
     This is the main API for SDK initialization. # Example for 3rd Party Applications:
     
     ```
@@ -79,7 +81,7 @@ Adobe Express Embed SDK main entry point.
     
     Throws
     
-    CCEverywhereError if initialization fails or is already in progress
+    CCEverywhereError if initialization fails or is already in progress, including when `hostInfo.appName` or `hostInfo.appVersion` is `nil`
     
     #### Declaration
     
@@ -97,7 +99,7 @@ Adobe Express Embed SDK main entry point.
     
     #### Parameters
     
-    <table class="graybox"><tbody><tr><td><code><em>hostInfo</em></code></td><td><div><p>Host application information including client ID and app name</p></div></td></tr><tr><td><code><em>configParams</em></code></td><td><div><p>SDK configuration including environment and locale</p></div></td></tr><tr><td><code><em>authProvider</em></code></td><td><div><p>Authentication configuration (optional, defaults to appropriate mode)</p></div></td></tr><tr><td><code><em>clientAuthProvider</em></code></td><td><div><p>Client authentication provider (optional)</p></div></td></tr><tr><td><code><em>sdkCallbacks</em></code></td><td><div><p>SDK-level callbacks for analytics (optional)</p></div></td></tr></tbody></table>
+    <table class="graybox"><tbody><tr><td><code><em>hostInfo</em></code></td><td><div><p>Host application information including client ID, app name, and app version. <code>appName</code> and <code>appVersion</code> must not be <code>nil</code>; otherwise initialization fails.</p></div></td></tr><tr><td><code><em>configParams</em></code></td><td><div><p>SDK configuration including environment and locale</p></div></td></tr><tr><td><code><em>authProvider</em></code></td><td><div><p>Authentication configuration (optional, defaults to appropriate mode)</p></div></td></tr><tr><td><code><em>clientAuthProvider</em></code></td><td><div><p>Client authentication provider (optional)</p></div></td></tr><tr><td><code><em>sdkCallbacks</em></code></td><td><div><p>SDK-level callbacks for analytics (optional)</p></div></td></tr></tbody></table>
     
     #### Return Value
     
